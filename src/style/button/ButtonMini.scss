@@ -1,0 +1,13 @@
+.btnmini {
+  background: #ffc800;
+  border-radius: 16px;
+  padding: 7.5px 19.5px;
+  &:hover {
+    background: #222222;
+    border-radius: 16px;
+    transition: all 0.7s ease-out;
+    span {
+      color: white;
+    }
+  }
+}

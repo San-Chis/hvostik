@@ -1,0 +1,13 @@
+.btnbig {
+  background: #ffc800;
+  border-radius: 16px;
+  padding: 13.5px 94px;
+  &:hover {
+    background: #222222;
+    border-radius: 16px;
+    transition: all 0.7s ease-out;
+    span {
+      color: white;
+    }
+  }
+}

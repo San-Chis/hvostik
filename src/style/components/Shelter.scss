@@ -1,0 +1,66 @@
+.shelters {
+  background: #ffc800;
+  height: 70vh;
+}
+
+.shelters__bg {
+  position: relative;
+  background: #ffc800;
+  &::after {
+    content: '';
+	 background-image: url(/img/home/fur.png);
+	 position: absolute;
+	 top: 0;
+	 left: 0;
+	 height: 100%;
+	 width: 100%;
+	 z-index: 1000;
+  }
+}
+
+.shelters__image {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 70vh;
+  width: 55%;
+  img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+.helters__body {
+  display: flex;
+  position: relative;
+}
+
+.info-shelters {
+  padding-top: 111px;
+  max-width: 416px;
+  &__title {
+    font-family: 'Oddval';
+    font-size: 64px;
+    line-height: 99px;
+    color: #222222;
+  }
+  &__text {
+    margin-bottom: 64px;
+    font-size: 32px;
+    line-height: 39px;
+    color: #222222;
+  }
+  &__btn {
+    img {
+      padding-right: 10px;
+    }
+    span {
+      font-family: 'Oddval';
+      font-size: 24px;
+      line-height: 37px;
+    }
+  }
+}
+
+

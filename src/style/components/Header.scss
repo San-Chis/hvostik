@@ -1,0 +1,49 @@
+.header {
+  margin-top: 4px;
+  margin-bottom: 1%;
+}
+.header__body {
+  display: flex;
+  align-items: center;
+}
+
+.header__logo {
+  display: flex;
+  align-items: center;
+  margin-right: 20%;
+  img {
+  }
+  h2 {
+    padding-top: 23px;
+    font-family: 'oddval';
+    font-size: 32px;
+    line-height: 49px;
+    color: #222222;
+  }
+}
+
+.nav-header {
+  margin-top: 10px;
+  width: 50%;
+  &__list {
+    display: flex;
+    gap: 10%;
+  }
+  &__link {
+    font-family: 'Oddval';
+    font-size: 16px;
+    line-height: 25px;
+    color: #222222;
+    &:hover {
+      color: #ffc800;
+    }
+  }
+}
+
+.header__btn {
+  span {
+    font-family: 'Oddval';
+    line-height: 25px;
+    color: #222222;
+  }
+}

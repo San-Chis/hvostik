@@ -1,0 +1,19 @@
+.sliders{
+	margin-bottom: 64px;
+}
+.sliders__title {
+	margin-bottom: 32px;
+  h2 {
+    font-family: 'Oddval';
+    font-size: 36px;
+    line-height: 55px;
+    color: #222222;
+  }
+}
+
+.sliders__body{
+	.swiper-button-next, .swiper-button-prev{
+		color: #FFC800;
+	}
+}
+

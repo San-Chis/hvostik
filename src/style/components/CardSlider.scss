@@ -1,0 +1,28 @@
+.cardslide {
+}
+.cardslide__img {
+  img {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 100%;
+  }
+}
+.cardslide__title {
+  background: #ffc800;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  h2 {
+    font-family: 'Oddval';
+    font-size: 24px;
+    line-height: 37px;
+    color: #222222;
+    margin-left: 32px;
+  }
+  p {
+    font-size: 24px;
+    line-height: 29px;
+    color: #222222;
+    margin-left: 32px;
+    padding-bottom: 15px;
+  }
+}

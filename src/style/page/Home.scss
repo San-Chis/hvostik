@@ -1,0 +1,38 @@
+.homepage__body{
+margin-bottom: 4%;
+}
+
+.homepage__slide{
+margin-bottom: 2%;
+}
+
+.homepage__help{
+margin-bottom: 2%;
+}
+
+.info-help-homepage{
+	text-align: center;
+	h2{
+		font-weight: 700;
+		font-size: 26px;
+		line-height: 40px;
+	}
+	p{
+		font-size: 14px;
+	}
+	
+}
+
+.homepage__card{
+	display: flex;
+	flex-direction: row;
+	gap: 4%;
+}
+
+.homepage-card__block{
+	width: 100%;
+	img{
+		width: 100%;
+	}
+	}
+

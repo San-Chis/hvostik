@@ -1,0 +1,29 @@
+.homefooter {
+  background-color: #f3f3f3;
+  margin-bottom: 64px;
+}
+
+.block-homefooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  &__title {
+    max-width: 493px;
+    padding-top: 23px;
+    padding-bottom: 23px;
+    h2 {
+      font-family: 'Oddval';
+      font-size: 24px;
+      line-height: 37px;
+      color: #222222;
+    }
+  }
+  &__btn {
+    span {
+      font-family: 'Oddval';
+      font-size: 24px;
+      line-height: 37px;
+      color: #222222;
+    }
+  }
+}
