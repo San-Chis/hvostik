@@ -1,29 +1,48 @@
 .shelters {
   background: #ffc800;
-  height: 70vh;
+  height: 68.3vh;
+  @media (max-width: 805px) {
+    height: auto;
+  }
 }
 
 .shelters__bg {
   position: relative;
-  background: #ffc800;
-  &::after {
-    content: '';
-	 background-image: url(/img/home/fur.png);
-	 position: absolute;
-	 top: 0;
-	 left: 0;
-	 height: 100%;
-	 width: 100%;
-	 z-index: 1000;
-  }
 }
 
 .shelters__image {
   position: absolute;
   top: 0;
   right: 0;
-  height: 70vh;
+  height: 68.3vh;
   width: 55%;
+  @media (max-width: 1035px) {
+    width: 60%;
+  }
+  @media (max-width: 860px) {
+    width: 65%;
+  }
+  @media (max-width: 805px) {
+    position: relative;
+    width: 100%;
+  }
+  @media (max-width: 500px) {
+    height: 43.3vh;
+  }
+  &::after {
+    content: '';
+    background-image: url(/img/home/fur.png);
+    position: absolute;
+    top: 0;
+    left: -1px;
+    height: 100%;
+    width: 100%;
+    z-index: 1000;
+    background-repeat: no-repeat;
+    @media (max-width: 805px) {
+      display: none;
+    }
+  }
   img {
     height: 100%;
     width: 100%;
@@ -38,20 +57,64 @@
 
 .info-shelters {
   padding-top: 111px;
-  max-width: 416px;
+  max-width: 40%;
+  text-align: center;
+  @media (max-width: 860px) {
+    max-width: 35%;
+  }
+  @media (max-width: 805px) {
+    padding-top: 1%;
+    max-width: 85%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
   &__title {
     font-family: 'Oddval';
     font-size: 64px;
     line-height: 99px;
     color: #222222;
+    @media (max-width: 1018px) {
+      font-size: 44px;
+      line-height: 69px;
+    }
+    @media (max-width: 860px) {
+      font-size: 35px;
+      line-height: 59px;
+    }
+    @media (max-width: 805px) {
+      font-size: 30px;
+      line-height: 40px;
+    }
+	 @media (max-width: 475px){
+		font-size: 25px;
+	 }
   }
   &__text {
     margin-bottom: 64px;
     font-size: 32px;
     line-height: 39px;
     color: #222222;
+    @media (max-width: 860px) {
+      font-size: 22px;
+    }
+    @media (max-width: 805px) {
+      margin-bottom: 14px;
+    }
+	 @media (max-width: 475px){
+		font-size: 20px;
+		line-height: 24px;
+	 }
   }
   &__btn {
+    @media (max-width: 805px) {
+      padding-bottom: 14px;
+      width: 45%;
+      display: flex;
+      justify-content: center;
+    }
     img {
       padding-right: 10px;
     }
@@ -62,5 +125,3 @@
     }
   }
 }
-
-

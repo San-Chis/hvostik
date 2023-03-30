@@ -1,15 +1,16 @@
 .btnblack {
-  padding: 13.5px 75px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 3% 16%;
   background: #222222;
   border-radius: 16px;
   color: #ffffff;
   &:hover {
-    box-shadow: 5px 5px 5px 5px black;
-    background: #ffc800;
     border-radius: 16px;
     transition: all 0.5s ease-out;
     span {
-      color: #222222;
+      color: #ffc800;
     }
   }
 }

@@ -15,9 +15,15 @@
 .image-sponsor {
   display: flex;
   justify-content: space-between;
-&__item-mini{
-	padding-top: 15px;
-	img{
-	}
-}
+  flex-wrap: wrap;
+  @media (max-width: 829px) {
+    justify-content: center;
+    gap: 10%;
+    row-gap: 10px;
+  }
+  &__item-mini {
+    padding-top: 15px;
+    img {
+    }
+  }
 }

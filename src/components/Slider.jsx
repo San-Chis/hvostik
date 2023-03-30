@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { Navigation, Scrollbar, A11y } from 'swiper'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/css'
@@ -9,8 +9,17 @@ import CardSlider from './CardSlider'
 import foodslide from '../img/home/card_slide_food.png'
 import hausslide from '../img/home/card_slide_haus.png'
 import dogsslide from '../img/home/card_slide_dogs.png'
+import { useWindowSize } from '../hooks/useWindowSize'
 
 const Slider = () => {
+  const [total, setTotal] = useState(2)
+  const windowSize = useWindowSize()
+
+  useEffect(() => {
+    const count = windowSize.width < 600 ? 1 : 2
+    setTotal(count)
+  }, [windowSize.width])
+
   return (
     <section className="sliders">
       <div className="container">
@@ -21,7 +30,7 @@ const Slider = () => {
           <Swiper
             modules={[Navigation, Scrollbar, A11y]}
             spaceBetween={40}
-            slidesPerView={2}
+            slidesPerView={total}
             navigation
           >
             <SwiperSlide>

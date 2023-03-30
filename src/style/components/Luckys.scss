@@ -11,10 +11,21 @@
     font-size: 36px;
     line-height: 55px;
     color: #222222;
+	 @media (max-width: 1238px){
+		text-align: center;
+			 }
+    @media (max-width: 391px) {
+      font-size: 28px;
+    }
   }
 }
 
 .lucky__body {
   display: flex;
-  gap: 40px;
+  flex-wrap: wrap;
+  gap: 3.3%;
+  @media (max-width: 1238px) {
+    justify-content: center;
+    row-gap: 30px;
+  }
 }

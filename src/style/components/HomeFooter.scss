@@ -7,18 +7,38 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  @media (max-width: 805px) {
+    flex-direction: column;
+  }
   &__title {
-    max-width: 493px;
+    max-width: 60%;
     padding-top: 23px;
     padding-bottom: 23px;
+    @media (max-width: 805px) {
+      max-width: 100%;
+      text-align: center;
+    }
     h2 {
       font-family: 'Oddval';
       font-size: 24px;
       line-height: 37px;
       color: #222222;
+      @media (max-width: 870px) {
+        font-size: 20px;
+      }
+      @media (max-width: 740px) {
+        font-size: 18px;
+      }
+      @media (max-width: 475px) {
+        font-size: 16px;
+        line-height: 22px;
+      }
     }
   }
   &__btn {
+    @media (max-width: 805px) {
+      margin-bottom: 2%;
+    }
     span {
       font-family: 'Oddval';
       font-size: 24px;

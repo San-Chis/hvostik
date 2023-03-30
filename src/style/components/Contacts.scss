@@ -1,6 +1,4 @@
 .contact__body {
-  display: flex;
-  justify-content: center;
 }
 
 .contact__title {
@@ -10,19 +8,52 @@
     font-size: 36px;
     line-height: 55px;
     color: #222222;
+	 @media (max-width: 1238px){
+text-align: center;
+	 }
+    @media (max-width: 750px) {
+      font-size: 32px;
+    }
+    @media (max-width: 410px) {
+      font-size: 24px;
+    }
   }
 }
 
 .social-contact {
   display: flex;
-  gap: 128px;
+  justify-content: center;
   margin-bottom: 52px;
   text-align: center;
+  width: 40%;
+  min-width: 300px;
+  margin: 0 auto;
+  gap: 3%;
+  @media (max-width: 930px) {
+    width: 60%;
+  }
+  @media (max-width: 670px) {
+    width: 80%;
+  }
+  @media (max-width: 500px) {
+    width: 100%;
+  }
+  @media (max-width: 400px) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
   &__link {
+    flex: 1;
     img {
       background: #ffc800;
       border-radius: 16px;
       padding: 20px;
+      @media (max-width: 500px) {
+        padding: 12px;
+      }
+		@media (max-width: 400px){
+			padding: 20px;
+		}
       &:hover {
         background: #222222;
         border-radius: 16px;

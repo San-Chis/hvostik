@@ -1,5 +1,4 @@
 .cardlucky {
-  max-width: 376px;
   position: relative;
 }
 
@@ -7,18 +6,18 @@
   img {
     border-radius: 15px;
     width: 100%;
+    object-fit: cover;
   }
 }
 
 .cardlucky__text {
   background: #222222;
   border-radius: 105px;
-  max-width: 141px;
   text-align: center;
   position: absolute;
   bottom: 20px;
   left: 32px;
-  padding: 4px 16px;
+  padding: 1% 10%;
   p {
     font-family: 'Oddval';
     font-size: 24px;
