@@ -2,6 +2,7 @@ import React from 'react'
 import { NavLink } from 'react-router-dom'
 import logo from '../img/logo.svg'
 import { HOME, FUND, PROGRAMS } from '../routes/constans'
+import visa from '../img/home/visa.png'
 import instagram from '../img/home/footer_instagram.svg'
 import telegram from '../img/home/footer_telegram.svg'
 import wotsap from '../img/home/footer_wotsap.svg'
@@ -29,15 +30,15 @@ const FooterInfo = () => {
                 </NavLink>
               </li>
               <li className="nav-footer__item">
-                <NavLink className="nav-header__link" to={PROGRAMS} end>
+                <NavLink className="nav-footer__link" to={PROGRAMS} end>
                   Программы
                 </NavLink>
               </li>
               <li className="nav-footer__item">
-                <NavLink className="nav-header__link">Счастливчики</NavLink>
+                <NavLink className="nav-footer__link">Счастливчики</NavLink>
               </li>
               <li className="nav-footer__item">
-                <NavLink className="nav-header__link">Партнёры</NavLink>
+                <NavLink className="nav-footer__link">Партнёры</NavLink>
               </li>
             </ul>
           </div>
@@ -46,7 +47,7 @@ const FooterInfo = () => {
               <h4>Реквизиты</h4>
             </div>
             <div className="frequisites-footer__image">
-              <img src="" alt="" />
+              <img src={visa} alt="" />
             </div>
             <div className="requisites-footer__carta">
               <h4>Карта Visa</h4>
