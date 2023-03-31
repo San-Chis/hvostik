@@ -1,0 +1,50 @@
+.requisites-help {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffc800;
+  max-width: 584px;
+  border-radius: 16px;
+  padding: 24px 24px;
+  gap: 24px;
+  &__info {
+    display: flex;
+    gap: 24px;
+    img {
+      width: 73px;
+      height: 100px;
+    }
+    h2 {
+      font-family: 'Oddval';
+      font-size: 36px;
+      line-height: 55px;
+      color: #222222;
+		
+    }
+  }
+  &__numbers {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 16px;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 16px;
+    p {
+      font-family: 'Oddval';
+      font-size: 20px;
+      line-height: 31px;
+      color: #222222;
+    }
+    img {
+    }
+  }
+  &__btn {
+    background: #222222;
+    border-radius: 16px;
+    width: 100%;
+    padding: 13.5px;
+    text-align: center;
+    font-family: 'Oddval';
+    font-size: 24px;
+    line-height: 37px;
+  }
+}

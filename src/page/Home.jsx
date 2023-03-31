@@ -1,11 +1,13 @@
 import React from 'react'
 import Contacts from '../components/Contacts'
 import Header from '../components/Header'
-import HomeFooter from '../components/HomeFooter'
+import ShelterFooter from '../components/ShelterFooter'
 import Luckys from '../components/Luckys'
 import Shelter from '../components/Shelter'
 import Slider from '../components/Slider'
 import Sponsors from '../components/Sponsors'
+import HowHelp from '../components/HowHelp'
+import FooterInfo from '../components/FooterInfo'
 
 export const Home = () => {
   return (
@@ -13,11 +15,13 @@ export const Home = () => {
       <Header />
       <div className="homepage__body">
         <Shelter />
-        <HomeFooter />
+        <ShelterFooter />
         <Slider />
         <Luckys />
-		  <Sponsors/>
-		  <Contacts/>
+		  <HowHelp/>
+        <Sponsors />
+        <Contacts />
+		  <FooterInfo/>
       </div>
     </div>
   )
