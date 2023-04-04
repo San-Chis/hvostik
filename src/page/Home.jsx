@@ -18,10 +18,10 @@ export const Home = () => {
         <ShelterFooter />
         <Slider />
         <Luckys />
-		  <HowHelp/>
+        <HowHelp />
         <Sponsors />
         <Contacts />
-		  <FooterInfo/>
+        <FooterInfo />
       </div>
     </div>
   )

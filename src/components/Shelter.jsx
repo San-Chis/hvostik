@@ -2,15 +2,11 @@ import React from 'react'
 import ButtonBlack from '../button/ButtonBlack'
 import shelter from '../img/home/shelter_bg.png'
 import cat from '../img/button/cat.svg'
+import { Link } from 'react-scroll'
 
 const Shelter = () => {
   return (
     <section className="shelters">
-      <div className="shelters__bg">
-        <div className="shelters__image">
-          <img src={shelter} alt="" />
-        </div>
-      </div>
       <div className="container">
         <div className="shelters__body">
           <div className="shelters__info info-shelters">
@@ -21,12 +17,25 @@ const Shelter = () => {
               <p>Поможем хвостатым вместе</p>
             </div>
             <div className="info-shelters__btn">
-              <ButtonBlack>
-                <img src={cat} alt="" />
-                <span>ПОМОЧЬ</span>
-              </ButtonBlack>
+              <Link
+                to="helphow"
+                spy={true}
+                smooth={true}
+                offset={0}
+                duration={500}
+              >
+                <ButtonBlack>
+                  <img src={cat} alt="" />
+                  <span>ПОМОЧЬ</span>
+                </ButtonBlack>
+              </Link>
             </div>
           </div>
+        </div>
+      </div>
+      <div className="shelters__image">
+        <div className="shelters__image-wrapper">
+          <img src={shelter} alt="" />
         </div>
       </div>
     </section>

@@ -17,20 +17,20 @@ const HowHelpRequisites = () => {
   }
 
   return (
-    <div className="help__requisites requisites-help">
-      <div className="requisites-help__info">
+    <div className="helphow__requisites requisites-helphow">
+      <div className="requisites-helphow__info">
         <img src={one} alt="" />
         <h2>СКОПИРУЙТЕ РЕКВИЗИТЫ</h2>
       </div>
-      <div className="requisites-help__numbers">
+      <div className="requisites-helphow__numbers">
         <p>30101810400000000225</p>
         <img src={visa} alt="" />
       </div>
-      <div className="requisites-help__btn">
+      <div className="requisites-helphow__btn">
         <button
           style={{
-            padding: '10px',
-				color: ` ${copied ? 'yellow' : 'white'}`,
+            padding: '13.5px',
+            color: ` ${copied ? 'yellow' : 'white'}`,
           }}
           onClick={copy}
         >

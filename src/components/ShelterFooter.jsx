@@ -1,5 +1,6 @@
 import React from 'react'
 import ButtonBig from '../button/ButtonBig'
+import { Link } from 'react-scroll'
 
 const ShelterFooter = () => {
   return (
@@ -10,9 +11,17 @@ const ShelterFooter = () => {
             <h2>ПОДАРИТЕ ДОМ ЖИВОТНЫМ УЖЕ СЕГОДНЯ</h2>
           </div>
           <div className="block-footershelter__btn">
-            <ButtonBig>
-              <span>ПОМОЧЬ</span>
-            </ButtonBig>
+            <Link
+              to="helphow"
+              spy={true}
+              smooth={true}
+              offset={0}
+              duration={500}
+            >
+              <ButtonBig>
+                <span>ПОМОЧЬ</span>
+              </ButtonBig>
+            </Link>
           </div>
         </div>
       </div>

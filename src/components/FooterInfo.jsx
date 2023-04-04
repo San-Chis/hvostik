@@ -1,7 +1,7 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 import logo from '../img/logo.svg'
-import { HOME, FUND, PROGRAMS } from '../routes/constans'
+import { HOME, FUND, PROGRAMS, HELP } from '../routes/constans'
 import visa from '../img/home/visa.png'
 import instagram from '../img/home/footer_instagram.svg'
 import telegram from '../img/home/footer_telegram.svg'
@@ -35,10 +35,9 @@ const FooterInfo = () => {
                 </NavLink>
               </li>
               <li className="nav-footer__item">
-                <NavLink className="nav-footer__link">Счастливчики</NavLink>
-              </li>
-              <li className="nav-footer__item">
-                <NavLink className="nav-footer__link">Партнёры</NavLink>
+                <NavLink className="nav-footer__link" to={HELP} end>
+                  Помочь
+                </NavLink>
               </li>
             </ul>
           </div>

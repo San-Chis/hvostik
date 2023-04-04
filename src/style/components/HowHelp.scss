@@ -1,12 +1,12 @@
-.help__body {
+.helphow__body {
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
+  flex-direction: row;
   gap: 40px;
   margin-bottom: 64px;
 }
 
-.help__title {
+.helphow__title {
   margin-bottom: 32px;
   h2 {
     font-family: 'Oddval';
@@ -16,11 +16,13 @@
   }
 }
 
-.sum-help {
+.sum-helphow {
   background: #ffc800;
   border-radius: 16px;
   padding: 24px;
   max-width: 584px;
+  @media (max-width: 1238px) {
+  }
   &__info {
     display: flex;
     margin-bottom: 24px;
@@ -43,7 +45,7 @@
   }
   &__denomination {
     display: flex;
-    gap: 25px;
+    gap: 4%;
     &__txt {
       text-align: center;
       p {
@@ -63,26 +65,31 @@
   }
 }
 
-.help__thankyou {
+.helphow__thankyou {
   background: #ffc800;
   border-radius: 16px;
   display: flex;
-  padding: 24px;
+  padding: 2%;
 }
 
-.block-help-thankyou {
+.block-helphow-thankyou {
   display: flex;
   flex-direction: column;
   &__title {
     display: flex;
-    gap: 25px;
+    gap: 5%;
+    margin-bottom: 8%;
+    max-width: 40%;
     img {
     }
     h2 {
       font-family: 'Oddval';
       font-size: 36px;
-      line-height: 55px;
+      line-height: 30px;
       color: #222222;
+      @media (max-width: 1080px) {
+        font-size: 30px;
+      }
     }
   }
   &__text {
@@ -91,11 +98,33 @@
       font-size: 20px;
       line-height: 31px;
       color: #222222;
+      @media (max-width: 1080px) {
+        font-size: 18px;
+      }
     }
   }
 }
 
-.thankyou-help__image {
+.image-helphow-thankyou {
   display: flex;
   gap: 20px;
+  max-width: 700px;
+  &__two {
+    @media (max-width: 765px) {
+      display: none;
+    }
+  }
+  &__three {
+    @media (max-width: 1035px) {
+      display: none;
+    }
+  }
+  img {
+    max-width: 220px;
+  }
+  @media (max-width: 1080px) {
+    gap: 15px;
+  }
+  @media (max-width: 1035px) {
+  }
 }
