@@ -1,8 +1,9 @@
 import React from 'react'
 import ButtonBlack from '../button/ButtonBlack'
-import shelter from '../img/home/shelter_bg.png'
+// import shelter from '../img/home/shelter_bg.png'
 import cat from '../img/button/cat.svg'
 import { Link } from 'react-scroll'
+import ShelterSlider from './ShelterSlider'
 
 const Shelter = () => {
   return (
@@ -33,10 +34,8 @@ const Shelter = () => {
           </div>
         </div>
       </div>
-      <div className="shelters__image">
-        <div className="shelters__image-wrapper">
-          <img src={shelter} alt="" />
-        </div>
+      <div className="shelters__swiper">
+        <ShelterSlider />
       </div>
     </section>
   )

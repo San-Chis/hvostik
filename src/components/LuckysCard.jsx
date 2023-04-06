@@ -1,7 +1,6 @@
 import React from 'react'
 
-
-const LuckysCard = ({ image, text}) => {
+const LuckysCard = ({ image, text }) => {
   return (
     <div className="cardlucky">
       <div className="cardlucky__img">

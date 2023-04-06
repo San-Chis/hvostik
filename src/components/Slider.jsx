@@ -26,7 +26,7 @@ const Slider = () => {
         <div className="sliders__title">
           <h2>КАК МЫ ПОМОГАЕМ?</h2>
         </div>
-        <d iv className="sliders__body">
+        <div className="sliders__body">
           <Swiper
             modules={[Navigation, Scrollbar, A11y]}
             spaceBetween={40}
@@ -57,7 +57,7 @@ const Slider = () => {
               />
             </SwiperSlide>
           </Swiper>
-        </d>
+        </div>
       </div>
     </section>
   )

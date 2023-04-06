@@ -1,21 +1,24 @@
 .footer {
   background-color: #f3f3f3;
-
 }
 
 .footer__body {
   display: flex;
-  align-items:flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
   padding: 44px 47px;
+  gap: 5%;
   justify-content: space-between;
+  @media (max-width: 703px) {
+    row-gap: 20px;
+  }
 }
 .footer__logo {
   display: flex;
-  align-items: center;
   img {
   }
   h2 {
-    padding-top: 23px;
+    padding-top: 14px;
     font-family: 'oddval';
     font-size: 32px;
     line-height: 49px;
@@ -23,58 +26,68 @@
   }
 }
 
-
-
-.contacts-footer {
-  &__network {
-    display: flex;
-    gap: 5%;
-  }
-}
-
 .nav-footer {
   &__title {
-	margin-bottom: 16px;
+    margin-bottom: 16px;
     h4 {
       font-weight: 700;
       line-height: 20px;
       color: #222222;
     }
   }
-  &__list{
-	display: flex;
-	flex-direction: column;
-	gap: 16px;
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
   }
-  &__item{
-
+  &__item {
+    line-height: 20px;
+    color: #222222;
   }
 }
 
-.requisites-footer{
-	&__title {
-		margin-bottom: 16px;
-		h4 {
-		  font-weight: 700;
-		  line-height: 20px;
-		  color: #222222;
-		}
-	 }
-	 &__image{
-		margin-bottom: 6px;
-	 }
-	 
-	 &__carta{
-		margin-bottom: 24px;
-	 }
+.requisites-footer {
+  &__title {
+    margin-bottom: 16px;
+    h4 {
+      font-weight: 700;
+      line-height: 20px;
+      color: #222222;
+    }
+  }
+  &__image {
+    margin-bottom: 6px;
+  }
+
+  &__carta {
+    margin-bottom: 24px;
+    h4 {
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 20px;
+      color: #222222;
+    }
+    p {
+      line-height: 20px;
+    }
+  }
 }
 
-.contacts-footer{
-	&__title {
-		h4 {
-		  font-weight: 700;
-		  line-height: 20px;
-		  color: #222222;
-		}
-	 }
+.contacts-footer {
+  @media (max-width: 870px) {
+    display: flex;
+    flex-direction: column;
+  }
+  &__title {
+    margin-bottom: 16px;
+    h4 {
+      font-weight: 700;
+      line-height: 20px;
+      color: #222222;
+    }
+  }
+  &__network {
+    display: flex;
+    gap: 17%;
+  }
 }

@@ -7,7 +7,9 @@ import blockimg from '../img/fund/fund_block.png'
 export const Fund = () => {
   return (
     <div className="fundpage">
-      <Header />
+      <div className="fundpage__header">
+        <Header />
+      </div>
       <div className="container">
         <div className="fundpage__body">
           <div className="fundpage__block block-fundpage">

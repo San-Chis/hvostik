@@ -2,22 +2,55 @@
   display: flex;
   flex-direction: column;
   background-color: #ffc800;
-  max-width: 584px;
+  width: 48%;
   border-radius: 16px;
   padding: 24px 24px;
   gap: 24px;
+  @media (max-width: 1030px) {
+    width: 65%;
+  }
+  @media (max-width: 660px){
+   width: 100%;
+  }
+  @media (max-width: 428px) {
+    padding: 10px 10px;
+  }
+  @media(max-width:450px){
+	padding: 5px 5px;
+  }
   &__info {
     display: flex;
     gap: 24px;
+	 @media(max-width:450px){
+		gap: 4%;
+	 }
     img {
       width: 73px;
       height: 100px;
+		@media(max-width:600px){
+			width: 50px;
+		 height: 75px;
+		 }
     }
     h2 {
       font-family: 'Oddval';
       font-size: 36px;
       line-height: 55px;
       color: #222222;
+      @media (max-width: 1160px) {
+        font-size: 30px;
+      }
+      @media (max-width: 980px) {
+        font-size: 25px;
+        line-height: 45px;
+      }
+      @media (max-width: 860px) {
+        font-size: 20px;
+      }
+		@media(max-width:450px){
+			font-size: 16px;
+			line-height: 35px;
+		 }
     }
   }
   &__numbers {
@@ -27,29 +60,52 @@
     align-items: center;
     background: rgba(255, 255, 255, 0.5);
     border-radius: 16px;
+    @media (max-width: 1239px) {
+      flex-direction: column;
+    }
+    @media (max-width: 482px) {
+      padding: 8px 10px;
+    }
+    @media (max-width: 428px) {
+      padding: 4px 4px;
+    }
     p {
       font-family: 'Oddval';
       font-size: 20px;
       line-height: 31px;
       color: #222222;
+      @media (max-width: 582px) {
+        font-size: 16px;
+      }
     }
     img {
+      @media (max-width: 582px) {
+        width: 150px;
+      }
+      @media (max-width: 482px) {
+        width: 110px;
+      }
+      @media (max-width: 428px) {
+        width: 90px;
+      }
     }
   }
   &__btn {
-	button{
-		font-size: 24px;
-		line-height: 37px;
-		background: #222222;
-		border-radius: 16px;
-		width: 100%;
-		text-align: center;
-		font-family: 'Oddval';
-		cursor: pointer;
-		  &:hover{
-			  background: #000000;
-			}
-	}
- 
+    button {
+      font-size: 24px;
+      line-height: 37px;
+      background: #222222;
+      border-radius: 16px;
+      width: 100%;
+      text-align: center;
+      font-family: 'Oddval';
+      cursor: pointer;
+      &:hover {
+        background: #000000;
+      }
+		@media(max-width:390px){
+			font-size: 20px;
+		}
+    }
   }
 }

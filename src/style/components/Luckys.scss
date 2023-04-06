@@ -4,6 +4,22 @@
   margin-bottom: 64px;
 }
 
+.lucky__body {
+}
+
+.swiper {
+  .swiper-pagination-bullet-active {
+    background: #ffffff;
+  }
+  .swiper-pagination-bullet {
+	border-radius: 8px;
+	width: 16px;
+	height: 16px;
+	border-radius: 8px;
+	background: #ffffff;
+ }
+}
+
 .lucky__title {
   margin-bottom: 32px;
   h2 {
@@ -11,21 +27,5 @@
     font-size: 36px;
     line-height: 55px;
     color: #222222;
-	 @media (max-width: 1238px){
-		text-align: center;
-			 }
-    @media (max-width: 391px) {
-      font-size: 28px;
-    }
-  }
-}
-
-.lucky__body {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 3.3%;
-  @media (max-width: 1238px) {
-    justify-content: center;
-    row-gap: 30px;
   }
 }

@@ -27,12 +27,6 @@ const Contacts = () => {
               </NavLink>
             </div>
             <div className="social-contact__link">
-              <NavLink to={'https://www.whatsapp.com/?lang=es'}>
-                <img src={wotsap} alt="" />
-                <p>Вотсап</p>
-              </NavLink>
-            </div>
-            <div className="social-contact__link">
               <NavLink to={'https://www.tiktok.com/'}>
                 <img src={tiktok} alt="" />
                 <p>Тик-ток</p>

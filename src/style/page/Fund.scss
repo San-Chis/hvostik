@@ -4,25 +4,45 @@
   justify-content: center;
 }
 
+.fundpage__header{
+	margin-bottom: 64px;
+	@media(max-width:1160px){
+		margin-bottom: 34px;
+	}
+}
+
 .block-fundpage {
 	display: flex;
 	gap: 40px;
 	margin-bottom: 64px;
+	@media(max-width:1160px){
+		gap: 30px;
+	}
 	&__image {
 	  width: 40%;
+	  img{
+		width: 100%;
+	  }
 	}
 	&__info {
 	  width: 60%;
+	  height: 100%;
 	  h2 {
 		 font-family: 'Oddval';
 		 font-size: 64px;
 		 line-height: 99px;
 		 color: #222222;
+		 @media(max-width:1160px){
+			font-size: 54px;
+		}
 	  }
 	  p {
 		 line-height: 20px;
-		 text-indent: 25px;
+		 font-size: 16px;
 		 color: #222222;
+		 @media(max-width:1160px){
+			line-height: 18px;
+		}
 	  }
 	}
  }

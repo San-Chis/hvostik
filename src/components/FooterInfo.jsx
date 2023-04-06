@@ -5,7 +5,6 @@ import { HOME, FUND, PROGRAMS, HELP } from '../routes/constans'
 import visa from '../img/home/visa.png'
 import instagram from '../img/home/footer_instagram.svg'
 import telegram from '../img/home/footer_telegram.svg'
-import wotsap from '../img/home/footer_wotsap.svg'
 import tiktok from '../img/home/footer_tiktok.svg'
 
 const FooterInfo = () => {
@@ -50,11 +49,11 @@ const FooterInfo = () => {
             </div>
             <div className="requisites-footer__carta">
               <h4>Карта Visa</h4>
-              <p>11111111111323412</p>
+              <p>30101810400000000225</p>
             </div>
             <div className="requisites-footer__carta">
               <h4>Карта Мир</h4>
-              <p>11111111111323412</p>
+              <p>30101810400000000225</p>
             </div>
           </div>
           <div className="footer__contacts contacts-footer">
@@ -67,9 +66,6 @@ const FooterInfo = () => {
               </NavLink>
               <NavLink to={'https://web.telegram.org/z/'}>
                 <img src={telegram} alt="" />
-              </NavLink>
-              <NavLink to={'https://www.whatsapp.com/?lang=es'}>
-                <img src={wotsap} alt="" />
               </NavLink>
               <NavLink to={'https://www.tiktok.com/'}>
                 <img src={tiktok} alt="" />
