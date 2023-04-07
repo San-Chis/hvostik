@@ -17,37 +17,39 @@ const Header = ({ onClick }) => {
     <header className="header">
       <div className="container">
         <div className={`header__body ${menuMobile ? 'active' : ''}`}>
-          <div className={`header__logo ${logoMobile ? 'active' : ''}`}>
-            <NavLink to={HOME} end>
+          <NavLink to={HOME} end>
+            <div className={`header__logo ${logoMobile ? 'active' : ''}`}>
               <img src={logo} alt="" />
-            </NavLink>
-            <h2>ХВОСТИК</h2>
-          </div>
-          <div className="header__nav nav-header">
-            <ul className={`nav-header__list ${menuMobile ? 'active' : ''}`}>
-              <li className="nav-header__item">
-                <NavLink className="nav-header__link" to={HOME} end>
-                  Главная
-                </NavLink>
-              </li>
-              <li className="nav-header__item">
-                <NavLink className="nav-header__link" to={FUND} end>
-                  Про Фонд
-                </NavLink>
-              </li>
-              <li className="nav-header__item">
-                <NavLink className="nav-header__link" to={PROGRAMS} end>
-                  Программы
-                </NavLink>
-              </li>
-            </ul>
-          </div>
-          <div className={`header__btn ${menuMobile ? 'active' : ''}`}>
-            <NavLink to={HELP} end>
-              <ButtonHelpMini onClick={onClick}>
-                <span>ПОМОЧЬ</span>
-              </ButtonHelpMini>
-            </NavLink>
+              <h2>ХВОСТИК</h2>
+            </div>
+          </NavLink>
+          <div className={`header__block ${menuMobile ? 'active' : ''}`}>
+            <div className="header__nav nav-header">
+              <ul className={`nav-header__list ${menuMobile ? 'active' : ''}`}>
+                <li className="nav-header__item">
+                  <NavLink className="nav-header__link" to={HOME} end>
+                    Главная
+                  </NavLink>
+                </li>
+                <li className="nav-header__item">
+                  <NavLink className="nav-header__link" to={FUND} end>
+                    Про Фонд
+                  </NavLink>
+                </li>
+                <li className="nav-header__item">
+                  <NavLink className="nav-header__link" to={PROGRAMS} end>
+                    Программы
+                  </NavLink>
+                </li>
+              </ul>
+            </div>
+            <div className={`header__btn ${menuMobile ? 'active' : ''}`}>
+              <NavLink to={HELP} end>
+                <ButtonHelpMini onClick={onClick}>
+                  <span>ПОМОЧЬ</span>
+                </ButtonHelpMini>
+              </NavLink>
+            </div>
           </div>
           <div
             className={`menu-btn ${menuMobile ? 'active' : ''}`}

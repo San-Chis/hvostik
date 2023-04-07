@@ -12,12 +12,12 @@ const FooterInfo = () => {
     <footer className="footer">
       <div className="container">
         <div className="footer__body">
-          <div className="footer__logo">
             <NavLink to={HOME} end>
+          <div className="footer__logo">
               <img src={logo} alt="" />
-            </NavLink>
-            <h2>ХВОСТИК</h2>
+              <h2>ХВОСТИК</h2>
           </div>
+            </NavLink>
           <div className="footer__nav nav-footer">
             <div className="nav-footer__title">
               <h4>Хвостик</h4>

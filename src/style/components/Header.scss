@@ -5,6 +5,10 @@
 .header__body {
   display: flex;
   align-items: center;
+  gap: 20%;
+ @media (max-width: 850px) {
+	gap: 8%;
+ }
   @media (max-width: 750px) {
     justify-content: space-between;
   }
@@ -13,13 +17,6 @@
 .header__logo {
   display: flex;
   align-items: center;
-  margin-right: 20%;
-  @media (max-width: 890px) {
-    margin-right: 10%;
-  }
-  @media (max-width: 790px) {
-    margin-right: 6%;
-  }
   img {
   }
   h2 {
@@ -31,13 +28,26 @@
   }
 }
 
+.header__block {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  @media (max-width: 750px) {
+    width: 0;
+  }
+}
+
 .nav-header {
   margin-top: 10px;
-  width: 50%;
+  width: 80%;
+  margin-right: 2%;
   &__list {
     display: flex;
-    gap: 10%;
-    @media (max-width: 790px) {
+    gap: 15%;
+    @media (max-width: 940px) {
+      gap: 10%;
+    }
+    @media (max-width: 880px) {
       gap: 7%;
     }
 
@@ -53,18 +63,17 @@
     &:hover {
       color: #ffc800;
     }
-	 @media screen and (max-width: 750px){
-		font-size: 30px;
-		line-height: 35px;
-	 }
+    @media screen and (max-width: 750px) {
+      font-size: 30px;
+      line-height: 35px;
+    }
   }
 }
 
 .header__btn {
-  margin-top: 10px;
   @media (max-width: 750px) {
     display: none;
-	 margin-top: 0;
+    margin-top: 0;
   }
   span {
     font-family: 'Oddval';
@@ -77,8 +86,8 @@
   display: none;
   @media (max-width: 750px) {
     display: block;
-    width: 30px;
-    height: 30px;
+    width: 50px;
+    height: 50px;
     position: relative;
     z-index: 150;
     overflow: hidden;
@@ -98,6 +107,7 @@
 }
 
 .header__body.active {
+  position: relative;
   @media screen and (max-width: 750px) {
     position: fixed;
     display: flex;
@@ -112,22 +122,32 @@
   }
 }
 
-.header__logo.active{
-	@media screen and (max-width: 750px){
-		align-items: flex-start;
-		h2 {
-			padding-top: 5px;
-		 }
-	}
+.header__logo.active {
+  @media screen and (max-width: 750px) {
+    align-items: flex-start;
+    h2 {
+      padding-top: 5px;
+    }
+  }
 }
 
+.header__block.active {
+  @media screen and (max-width: 750px) {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    position: absolute;
+    top: 20%;
+    width: 100%;
+    justify-content: space-between;
+  }
+}
 
 .nav-header__list.active {
   @media screen and (max-width: 750px) {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 100px;
     gap: 50px;
   }
 }
@@ -137,8 +157,7 @@
     display: flex;
     transform: translateX(0);
     z-index: 150;
-	 padding-right: 35px;
-
+    margin-bottom: 5%;
   }
 }
 

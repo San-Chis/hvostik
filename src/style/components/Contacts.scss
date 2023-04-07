@@ -1,5 +1,5 @@
 .contact__body {
-	margin-bottom: 60px;
+  margin-bottom: 60px;
 }
 
 .contact__title {
@@ -9,14 +9,13 @@
     font-size: 36px;
     line-height: 55px;
     color: #222222;
-	 @media (max-width: 1238px){
-text-align: center;
-	 }
-    @media (max-width: 750px) {
-      font-size: 32px;
+    @media (max-width: 1000px) {
+      font-size: 30px;
+      line-height: 40px;
     }
-    @media (max-width: 410px) {
+    @media (max-width: 390px) {
       font-size: 24px;
+      line-height: 30px;
     }
   }
 }
@@ -39,10 +38,7 @@ text-align: center;
   @media (max-width: 500px) {
     width: 100%;
   }
-  @media (max-width: 400px) {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
+
   &__link {
     flex: 1;
     img {
@@ -52,9 +48,9 @@ text-align: center;
       @media (max-width: 500px) {
         padding: 12px;
       }
-		@media (max-width: 400px){
-			padding: 20px;
-		}
+      @media (max-width: 400px) {
+        padding: 20px;
+      }
       &:hover {
         background: #222222;
         border-radius: 16px;

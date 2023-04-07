@@ -6,8 +6,7 @@
   height: 80vh;
   min-height: 600px;
   @media (max-width: 1130px) {
-    height: 100vh;
-    min-height: 600px;
+    height: 110vh;
     flex-direction: column-reverse;
   }
 }
@@ -35,14 +34,14 @@
       font-size: 54px;
       line-height: 69px;
     }
-    //  @media (max-width: 805px) {
-    //    font-size: 30px;
-    //    line-height: 35px;
-    //  }
-    //  @media (max-width: 475px) {
-    //    font-size: 25px;
-    //    line-height: 30px;
-    //  }
+    @media (max-width: 805px) {
+      font-size: 30px;
+      line-height: 35px;
+    }
+    @media (max-width: 475px) {
+      font-size: 25px;
+      line-height: 30px;
+    }
   }
   &__text {
     margin-bottom: 64px;
@@ -85,12 +84,12 @@
     background-image: url(/img/home/fur.png);
     position: absolute;
     top: 0;
-    left: -1.5px;
+    left: -2.3px;
     height: 100%;
-    width: 99px;
+    width: 11%;
     z-index: 1000;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
     @media (max-width: 1130px) {
       display: none;
     }
