@@ -1,5 +1,11 @@
 .sliders {
   margin-bottom: 64px;
+  @media (max-width: 805px){
+	margin-bottom: 44px;
+  }
+  @media (max-width: 400px){
+	margin-bottom: 34px;
+  }
 }
 .sliders__title {
   margin-bottom: 32px;
@@ -12,8 +18,8 @@
       font-size: 30px;
       line-height: 40px;
     }
-    @media (max-width: 390px) {
-      font-size: 24px;
+    @media (max-width: 400px) {
+      font-size: 23px;
       line-height: 30px;
     }
   }
@@ -43,11 +49,40 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    @media (max-width: 1280px) {
+      height: 53px;
+      width: 53px;
+      right: -22px;
+      font-size: 16px;
+      border: 7px solid #ffffff;
+      top: var(--swiper-navigation-top-offset, 35%);
+    }
+    @media (max-width: 740px) {
+      top: var(--swiper-navigation-top-offset, 30%);
+      height: 48px;
+      width: 48px;
+    }
+    @media (max-width: 630px) {
+      height: 43px;
+      width: 43px;
+      top: var(--swiper-navigation-top-offset, 28%);
+    }
+    @media (max-width: 600px) {
+      top: var(--swiper-navigation-top-offset, 40%);
+      height: 48px;
+      width: 48px;
+    }
+    @media (max-width: 360px) {
+      top: var(--swiper-navigation-top-offset, 34%);
+    }
   }
 
   .prev-arrow {
     right: auto;
     left: -30px;
+    @media (max-width: 1280px) {
+      left: -22px;
+    }
   }
   .swiper {
     &-slide {

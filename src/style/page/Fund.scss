@@ -11,66 +11,25 @@
   }
 }
 
-.block-fundpage {
+.requisites-fundpage {
+  gap: 20px;
   display: flex;
-  gap: 40px;
-  margin-bottom: 64px;
-  @media (max-width: 950px){
-flex-direction: column;
-align-items: center;
-  }
-  @media (max-width: 1182px) {
-    gap: 20px;
-  }
-  @media (max-width: 1020px){
-	gap: 10px;
-  }
-  &__image {
-    max-width: 40%;
-	 @media (max-width: 950px){
-		max-width: 100%;
-	 }
-    img {
-      width: 100%;
-    }
-  }
-  &__info {
-    max-width: 60%;
-    height: 100%;
-	 @media (max-width: 950px){
-		max-width: 100%;
-	 }
+  flex-direction: column;
+  &__title {
     h2 {
       font-family: 'Oddval';
-      font-size: 64px;
-      line-height: 99px;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 36px;
+      line-height: 55px;
       color: #222222;
-      @media (max-width: 1182px) {
-        font-size: 44px;
-      }
-		@media (max-width: 1090px) {
-			font-size: 40px;
-			line-height: 69px;
-		 }
-		 @media (max-width: 1020px){
-			line-height: 40px;
-			font-size: 30px;
-		 }
     }
-    p {
-      line-height: 20px;
-      font-size: 16px;
-      color: #222222;
-      margin-bottom: 3%;
-      @media (max-width: 1182px) {
-        line-height: 18px;
-      }
-		@media (max-width: 1090px) {
-			line-height: 16px;
-		 }
-		 @media (max-width: 1020px){
-			margin-bottom: 2%;
-		 }
-    }
+  }
+  &__howhelp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 60px;
   }
 }

@@ -1,5 +1,11 @@
 .contact__body {
   margin-bottom: 60px;
+  @media (max-width: 805px) {
+    margin-bottom: 44px;
+  }
+  @media (max-width: 400px) {
+    margin-bottom: 34px;
+  }
 }
 
 .contact__title {
@@ -13,8 +19,11 @@
       font-size: 30px;
       line-height: 40px;
     }
+    @media (max-width: 450px) {
+      font-size: 27px;
+    }
     @media (max-width: 390px) {
-      font-size: 24px;
+      font-size: 21px;
       line-height: 30px;
     }
   }

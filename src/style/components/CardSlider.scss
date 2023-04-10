@@ -8,7 +8,7 @@
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     width: 100%;
-	 height: 100%
+    height: 100%;
   }
 }
 .cardslide__title {
@@ -27,9 +27,9 @@
     width: 100%;
     z-index: 1000;
     background-repeat: no-repeat;
-	 @media (max-width: 805px){
-display: none;
-	 }
+    @media (max-width: 805px) {
+      display: none;
+    }
   }
   h2 {
     font-family: 'Oddval';
@@ -37,19 +37,19 @@ display: none;
     line-height: 37px;
     color: #222222;
     margin-left: 32px;
-	 @media (max-width: 1075px){
-		font-size: 20px;
-		line-height: 30px;
-	 }
-	 @media (max-width: 915px){
-		font-size: 18px;
-		line-height: 25px;
-		margin-left: 12px;
-	 }
-	 @media (max-width: 915px){
-		font-size: 16px;
-		line-height: 21px;
-	 }
+    @media (max-width: 1075px) {
+      font-size: 20px;
+      line-height: 30px;
+    }
+    @media (max-width: 915px) {
+      font-size: 18px;
+      line-height: 25px;
+      margin-left: 12px;
+    }
+    @media (max-width: 915px) {
+      font-size: 15px;
+      line-height: 23px;
+    }
   }
   p {
     font-size: 24px;
@@ -57,14 +57,14 @@ display: none;
     color: #222222;
     margin-left: 32px;
     padding-bottom: 15px;
-	 @media (max-width: 1075px){
-		font-size: 20px;
-		line-height: 30px;
-	 }
-	 @media (max-width: 915px){
-		font-size: 16px;
-		line-height: 25px;
-		margin-left: 12px;
-	 }
+    @media (max-width: 1075px) {
+      font-size: 20px;
+      line-height: 30px;
+    }
+    @media (max-width: 915px) {
+      font-size: 16px;
+      line-height: 25px;
+      margin-left: 12px;
+    }
   }
 }

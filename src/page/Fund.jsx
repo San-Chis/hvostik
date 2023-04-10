@@ -1,8 +1,9 @@
 import React from 'react'
+import AboutFunds from '../components/AboutFunds'
 import FooterInfo from '../components/FooterInfo'
 import Header from '../components/Header'
 import Sponsors from '../components/Sponsors'
-import blockimg from '../img/fund/fund_block.png'
+import HowHelpRequisites from '../components/HowHelpRequisites'
 
 export const Fund = () => {
   return (
@@ -10,45 +11,21 @@ export const Fund = () => {
       <div className="fundpage__header">
         <Header />
       </div>
-      <div className="container">
-        <div className="fundpage__body">
-          <div className="fundpage__block block-fundpage">
-            <div className="block-fundpage__image">
-              <img src={blockimg} alt="" />
+      <div className="fundpage__body">
+        <AboutFunds />
+        <div className="fundpage__sponsors">
+          <Sponsors />
+        </div>
+
+        <div className="container">
+          <div className="fundpage__requisites requisites-fundpage">
+            <div className="requisites-fundpage__title">
+              <h2>КАК ПОМОЧЬ?</h2>
             </div>
-            <div className="block-fundpage__info">
-              <h2>ПРИЮТ ХВОСТИК</h2>
-              <p>
-                Приют для собак и котов "Хвостик" - это место, где бездомные
-                животные находят любовь и заботу. Мы являемся некоммерческой
-                организацией, которая занимается спасением и уходом за
-                животными, которые потеряли своих хозяев или стали жертвами
-                жестокого обращения.
-              </p>
-              <p>
-                В нашем приюте мы предоставляем нашим питомцам качественный уход
-                и внимание. Мы заботимся о их здоровье, обеспечиваем их
-                ежедневным питанием, уборкой и социализацией. Каждое животное
-                получает необходимые медицинские процедуры и лечение, а также
-                проходит все необходимые вакцинации и обработки от паразитов.
-              </p>
-              <p>
-                Наш приют - это место, где каждое животное получает шанс на
-                новую жизнь. Мы стремимся найти дом для каждого питомца, который
-                был у нас в приюте. Мы тщательно подбираем новых хозяев, чтобы
-                убедиться, что животное будет жить в любящей и заботливой семье.
-              </p>
-              <p>
-                Мы считаем, что каждое животное заслуживает любви и уважения, и
-                поэтому мы делаем все возможное, чтобы обеспечить им комфортное
-                пребывание в приюте и найти им новый дом. Если вы хотите помочь
-                нашему приюту, вы можете стать нашим волонтером, сделать
-                пожертвование или просто навестить наших питомцев и подарить им
-                немного своей любви и внимания.
-              </p>
+            <div className="requisites-fundpage__howhelp">
+              <HowHelpRequisites />
             </div>
           </div>
-          <Sponsors />
         </div>
       </div>
       <FooterInfo />

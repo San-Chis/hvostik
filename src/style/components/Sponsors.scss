@@ -1,5 +1,11 @@
 .sponsor {
   margin-bottom: 80px;
+  @media (max-width: 805px) {
+    margin-bottom: 44px;
+  }
+  @media (max-width: 400px) {
+    margin-bottom: 38px;
+  }
 }
 
 .sponsor__title {

@@ -1,6 +1,12 @@
 .footershelter {
   background-color: #f3f3f3;
   margin-bottom: 64px;
+  @media (max-width: 805px){
+	margin-bottom: 44px;
+  }
+  @media (max-width: 400px){
+	margin-bottom: 34px;
+  }
 }
 
 .block-footershelter {

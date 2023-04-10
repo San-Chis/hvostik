@@ -2,6 +2,41 @@
 }
 .programspage__haeader {
   margin-bottom: 64px;
+  @media (max-width: 805px) {
+    margin-bottom: 44px;
+  }
+  @media (max-width: 400px) {
+    margin-bottom: 34px;
+  }
 }
 
-
+.requisites-programspage {
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  &__title {
+    h2 {
+      font-family: 'Oddval';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 36px;
+      line-height: 55px;
+      color: #222222;
+      @media (max-width: 1000px) {
+        font-size: 30px;
+        line-height: 40px;
+      }
+      @media (max-width: 390px) {
+        font-size: 24px;
+        line-height: 30px;
+      }
+    }
+  }
+  &__howhelp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 60px;
+  }
+}

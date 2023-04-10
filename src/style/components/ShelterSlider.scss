@@ -12,9 +12,9 @@
   min-height: 500px;
   max-height: 1600px;
   object-fit: cover;
-  @media (max-width: 620px) {
-    height: 50vh;
-    min-height: 300px;
+  @media (max-width: 1130px) {
+    min-height: 400px;
+	height: auto;
   }
   img {
   }

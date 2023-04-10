@@ -2,7 +2,6 @@ import React from 'react'
 import { NavLink } from 'react-router-dom'
 import instagram from '../img/home/instagram.svg'
 import telegram from '../img/home/telegram.svg'
-import wotsap from '../img/home/wotsap.svg'
 import tiktok from '../img/home/tik_tok.svg'
 
 const Contacts = () => {
