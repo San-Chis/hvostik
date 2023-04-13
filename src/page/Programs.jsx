@@ -3,7 +3,7 @@ import FooterInfo from '../components/FooterInfo'
 import Header from '../components/Header'
 import Luckys from '../components/Luckys'
 import Slider from '../components/Slider'
-import HowHelpRequisites from '../components/HowHelpRequisites'
+import HowHelpDonate from '../components/HowHelpDonate'
 
 export const Programs = () => {
   return (
@@ -15,12 +15,12 @@ export const Programs = () => {
         <Slider />
         <Luckys />
         <div className="container">
-          <div className="programspage__requisites requisites-programspage">
-            <div className="requisites-programspage__title">
+          <div className="programspage__donate donate-programspage">
+            <div className="donate-programspage__title">
               <h2>КАК ПОМОЧЬ?</h2>
             </div>
-            <div className="requisites-programspage__howhelp">
-              <HowHelpRequisites />
+            <div className="donate-programspage__howhelp">
+              <HowHelpDonate />
             </div>
           </div>
         </div>

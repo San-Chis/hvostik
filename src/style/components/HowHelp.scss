@@ -82,7 +82,13 @@
     }
   }
   &__text {
-    margin-bottom: 17px;
+    margin-bottom: 20px;
+    @media (max-width: 1091px) {
+      margin-bottom: 50px;
+    }
+	 @media (max-width: 1030px){
+		margin-bottom: 20px;
+	 }
     p {
       font-family: 'Oddval';
       font-size: 20px;
@@ -91,16 +97,39 @@
       @media (max-width: 1030px) {
         font-size: 18px;
       }
-      @media (max-width: 392px) {
+      @media (max-width: 450px) {
         font-size: 15px;
       }
+		@media (max-width: 405px){
+			font-size: 14px;
+		 }
     }
   }
   &__denomination {
     display: flex;
-    gap: 4%;
+    background-color: white;
+    border-radius: 16px;
+    padding: 6% 6%;
+    align-items: center;
+    justify-content: space-between;
+    @media (max-width: 1170px) {
+      padding: 6% 3%;
+    }
+    @media (max-width: 1070px) {
+      padding: 6% 2%;
+    }
     @media (max-width: 1030px) {
-      justify-content: space-between;
+      justify-content: center;
+      gap: 8%;
+    }
+    @media (max-width: 800px) {
+      gap: 6%;
+    }
+    @media (max-width: 700px) {
+      gap: 4%;
+    }
+    @media (max-width: 500px) {
+      gap: 2%;
     }
     @media (max-width: 640px) {
       flex-wrap: wrap;
@@ -108,32 +137,36 @@
       row-gap: 14px;
     }
     &__txt {
-      align-items: center;
       justify-content: center;
       display: flex;
-      background: rgba(255, 255, 255, 0.5);
-      border-radius: 16px;
-      height: 104px;
-      width: 115px;
-      @media (max-width: 1030px) {
-        width: 115px;
-      }
-      @media (max-width: 750px) {
-        height: 90px;
-        width: 100px;
-      }
-      @media (max-width: 540px) {
-        height: 80px;
-        width: 90px;
-      }
-      @media (max-width: 495px) {
-        height: 70px;
-        width: 70px;
-      }
-      @media (max-width: 380px) {
-        height: 58px;
-        width: 58px;
-      }
+      background-color: rgb(158 158 158 / 30%);
+      opacity: 0.9;
+      border-radius: 22px;
+      align-items: center;
+      padding: 8px 16px;
+      // background: rgba(255, 255, 255, 0.5);
+      // border-radius: 16px;
+      // height: 104px;
+      // width: 115px;
+      // @media (max-width: 1030px) {
+      //   width: 115px;
+      // }
+      // @media (max-width: 750px) {
+      //   height: 90px;
+      //   width: 100px;
+      // }
+      // @media (max-width: 540px) {
+      //   height: 80px;
+      //   width: 90px;
+      // }
+      // @media (max-width: 495px) {
+      //   height: 70px;
+      //   width: 70px;
+      // }
+      // @media (max-width: 380px) {
+      //   height: 58px;
+      //   width: 58px;
+      // }
       p {
         font-family: 'Oddval';
         font-size: 20px;
@@ -145,7 +178,7 @@
         @media (max-width: 750px) {
           font-size: 16px;
         }
-        @media (max-width: 380px) {
+        @media (max-width: 475px) {
           font-size: 13px;
         }
       }

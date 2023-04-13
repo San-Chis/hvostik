@@ -14,19 +14,19 @@ const Contacts = () => {
         <div className="contact__body">
           <div className="contact__social social-contact">
             <div className="social-contact__link">
-              <NavLink to={'https://www.instagram.com/</div>'}>
+              <NavLink to={'https://www.instagram.com/mi_hvostik.ru/'}>
                 <img src={instagram} alt="" />
                 <p>Инстаграм</p>
               </NavLink>
             </div>
             <div className="social-contact__link">
-              <NavLink to={'https://web.telegram.org/z/'}>
+              <NavLink to={'https://t.me/mimihvostik_ru'}>
                 <img src={telegram} alt="" />
                 <p>Телеграм</p>
               </NavLink>
             </div>
             <div className="social-contact__link">
-              <NavLink to={'https://www.tiktok.com/'}>
+              <NavLink to={'https://www.tiktok.com/@mimihexaq0r?_t=8bSr66aaII1'}>
                 <img src={tiktok} alt="" />
                 <p>Тик-ток</p>
               </NavLink>

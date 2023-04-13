@@ -14,8 +14,21 @@
   object-fit: cover;
   @media (max-width: 1130px) {
     min-height: 400px;
-	height: auto;
+    height: auto;
   }
   img {
+  }
+}
+
+.swiper {
+  .swiper-pagination-bullet-active {
+    background: #ffffff;
+  }
+  .swiper-pagination-bullet {
+    border-radius: 8px;
+    width: 16px;
+    height: 16px;
+    border-radius: 8px;
+    background: #ffffff;
   }
 }

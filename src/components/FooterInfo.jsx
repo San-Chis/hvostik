@@ -1,5 +1,5 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 import logo from '../img/logo.svg'
 import { HOME, FUND, PROGRAMS, HELP } from '../routes/constans'
 import visa from '../img/home/visa.png'
@@ -12,12 +12,12 @@ const FooterInfo = () => {
     <footer className="footer">
       <div className="container">
         <div className="footer__body">
-            <NavLink to={HOME} end>
-          <div className="footer__logo">
+          <NavLink to={HOME} end>
+            <div className="footer__logo">
               <img src={logo} alt="" />
               <h2>ХВОСТИК</h2>
-          </div>
-            </NavLink>
+            </div>
+          </NavLink>
           <div className="footer__nav nav-footer">
             <div className="nav-footer__title">
               <h4>Хвостик</h4>
@@ -40,20 +40,17 @@ const FooterInfo = () => {
               </li>
             </ul>
           </div>
-          <div className="footer__requisites requisites-footer">
-            <div className=" requisites-footer__title">
-              <h4>Реквизиты</h4>
+          <div className="footer__donate donate-footer">
+            <div className=" donate-footer__title">
+              <h4>Поддержка</h4>
             </div>
-            <div className="frequisites-footer__image">
+            <div className="donate-footer__image">
               <img src={visa} alt="" />
             </div>
-            <div className="requisites-footer__carta">
-              <h4>Карта Visa</h4>
-              <p>30101810400000000225</p>
-            </div>
-            <div className="requisites-footer__carta">
-              <h4>Карта Мир</h4>
-              <p>30101810400000000225</p>
+            <div className="donate-footer__carta">
+              <Link to={'https://yoomoney.ru/to/4100118170933236'}>
+                <h3>Пожертвовать</h3>
+              </Link>
             </div>
           </div>
           <div className="footer__contacts contacts-footer">
@@ -61,13 +58,15 @@ const FooterInfo = () => {
               <h4>Связь с нами</h4>
             </div>
             <div className="contacts-footer__network">
-              <NavLink to={'https://www.instagram.com/</div>'}>
+              <NavLink to={'https://www.instagram.com/mi_hvostik.ru/'}>
                 <img src={instagram} alt="" />
               </NavLink>
-              <NavLink to={'https://web.telegram.org/z/'}>
+              <NavLink to={'https://t.me/mimihvostik_ru'}>
                 <img src={telegram} alt="" />
               </NavLink>
-              <NavLink to={'https://www.tiktok.com/'}>
+              <NavLink
+                to={'https://www.tiktok.com/@mimihexaq0r?_t=8bSr66aaII1'}
+              >
                 <img src={tiktok} alt="" />
               </NavLink>
             </div>

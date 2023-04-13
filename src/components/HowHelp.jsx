@@ -4,7 +4,7 @@ import three from '../img/home/three.png'
 import helpone from '../img/home/help_one.png'
 import helptwo from '../img/home/help_two.png'
 import helpthree from '../img/home/help_three.png'
-import HowHelpRequisites from './HowHelpRequisites'
+import HowHelpDonate from './HowHelpDonate'
 
 const HowHelp = () => {
   return (
@@ -14,7 +14,7 @@ const HowHelp = () => {
           <h2>КАК ПОМОЧЬ?</h2>
         </div>
         <div className="helphow__body">
-          <HowHelpRequisites />
+          <HowHelpDonate />
           <div className="helphow__sum sum-helphow">
             <div className="sum-helphow__info">
               <img src={two} alt="" />
@@ -25,16 +25,16 @@ const HowHelp = () => {
             </div>
             <div className="sum-helphow__denomination ">
               <div className="sum-helphow__denomination__txt">
-                <p>+5Р</p>
+                <p>200₽</p>
               </div>
               <div className="sum-helphow__denomination__txt">
-                <p>+50Р</p>
+                <p>500₽</p>
               </div>
               <div className="sum-helphow__denomination__txt">
-                <p>+100Р</p>
+                <p>1 000₽</p>
               </div>
               <div className="sum-helphow__denomination__txt">
-                <p>+1 000Р</p>
+                <p>15 000₽</p>
               </div>
             </div>
           </div>

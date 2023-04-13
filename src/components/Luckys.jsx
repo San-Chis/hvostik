@@ -4,7 +4,7 @@ import { Swiper, SwiperSlide } from 'swiper/react'
 import { useWindowSize } from '../hooks/useWindowSize'
 import LuckysCard from './LuckysCard'
 import nata from '../img/home/card_lucky_nata.png'
-import vasya from '../img/home/card_lucky_vasya.png'
+import IMG_1294 from '../img/home/IMG_1294.JPG'
 import richard from '../img/home/card_lucky_richard.png'
 import 'swiper/css'
 import 'swiper/css/pagination'
@@ -50,16 +50,10 @@ const Luckys = () => {
               <LuckysCard image={nata} text={'НАТА'} />
             </SwiperSlide>
             <SwiperSlide>
-              <LuckysCard image={vasya} text={'ВАСЯ'} />
+              <LuckysCard image={IMG_1294} text={'ВАСЯ'} />
             </SwiperSlide>
             <SwiperSlide>
               <LuckysCard image={richard} text={'РИЧАРД'} />
-            </SwiperSlide>
-            <SwiperSlide>
-              <LuckysCard image={nata} text={'НАТА'} />
-            </SwiperSlide>
-            <SwiperSlide>
-              <LuckysCard image={nata} text={'НАТА'} />
             </SwiperSlide>
             <SwiperSlide>
               <LuckysCard image={nata} text={'НАТА'} />

@@ -3,7 +3,7 @@ import AboutFunds from '../components/AboutFunds'
 import FooterInfo from '../components/FooterInfo'
 import Header from '../components/Header'
 import Sponsors from '../components/Sponsors'
-import HowHelpRequisites from '../components/HowHelpRequisites'
+import HowHelpDonate from '../components/HowHelpDonate'
 
 export const Fund = () => {
   return (
@@ -18,12 +18,12 @@ export const Fund = () => {
         </div>
 
         <div className="container">
-          <div className="fundpage__requisites requisites-fundpage">
-            <div className="requisites-fundpage__title">
+          <div className="fundpage__donate donate-fundpage">
+            <div className="donate-fundpage__title">
               <h2>КАК ПОМОЧЬ?</h2>
             </div>
-            <div className="requisites-fundpage__howhelp">
-              <HowHelpRequisites />
+            <div className="donate-fundpage__howhelp">
+              <HowHelpDonate />
             </div>
           </div>
         </div>
