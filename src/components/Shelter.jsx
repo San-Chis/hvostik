@@ -25,7 +25,7 @@ const Shelter = () => {
                 duration={500}
               >
                 <ButtonBlack>
-                  <img src={cat} alt="" />
+                  <img src={cat} alt="картинка кот" />
                   <span>ПОМОЧЬ</span>
                 </ButtonBlack>
               </Link>

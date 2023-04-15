@@ -26,7 +26,6 @@
     }
     @media (max-width: 450px) {
       gap: 4%;
-      // margin-bottom: 60px;
     }
     img {
       width: 73px;
@@ -57,61 +56,6 @@
       }
     }
   }
-  //   &__numbers {
-  //     display: flex;
-  //     justify-content: space-between;
-  //     padding: 8px 16px;
-  //     align-items: center;
-  //     background: rgba(255, 255, 255, 0.5);
-  //     border-radius: 16px;
-  //     @media (max-width: 1239px) {
-  //       flex-direction: column;
-  //     }
-  //     @media (max-width: 482px) {
-  //       padding: 8px 10px;
-  //     }
-  //     @media (max-width: 428px) {
-  //       padding: 4px 4px;
-  //     }
-  //     p {
-  //       font-family: 'Oddval';
-  //       font-size: 20px;
-  //       line-height: 31px;
-  //       color: #222222;
-  //       @media (max-width: 582px) {
-  //         font-size: 16px;
-  //       }
-  //     }
-  //     img {
-  //       @media (max-width: 582px) {
-  //         width: 150px;
-  //       }
-  //       @media (max-width: 482px) {
-  //         width: 110px;
-  //       }
-  //       @media (max-width: 428px) {
-  //         width: 90px;
-  //       }
-  //     }
-  //   }
-  //   &__btn {
-  //     button {
-  //       font-size: 24px;
-  //       line-height: 37px;
-  //       background: #222222;
-  //       border-radius: 16px;
-  //       width: 100%;
-  //       text-align: center;
-  //       font-family: 'Oddval';
-  //       cursor: pointer;
-  //       &:hover {
-  //         background: #000000;
-  //       }
-  //       @media (max-width: 390px) {
-  //         font-size: 20px;
-  //       }
-  //     }
-  //   }
 }
 
 .donate__text {
@@ -121,17 +65,17 @@
     font-size: 20px;
     line-height: 31px;
     color: #222222;
-	 @media (max-width: 1030px) {
-		font-size: 18px;
-	 }
-	 @media (max-width: 450px) {
-		font-size: 15px;
-		line-height: 26px;
-	 }
-	 @media (max-width: 405px){
-		font-size: 13px;
-		line-height: 21px;
-	 }
+    @media (max-width: 1030px) {
+      font-size: 18px;
+    }
+    @media (max-width: 450px) {
+      font-size: 15px;
+      line-height: 26px;
+    }
+    @media (max-width: 405px) {
+      font-size: 13px;
+      line-height: 21px;
+    }
   }
 }
 

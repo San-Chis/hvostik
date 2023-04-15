@@ -3,9 +3,6 @@
   height: 100%;
 }
 
-.swiper__body {
-}
-
 .swiper-backgraund__img {
   width: 100%;
   height: 80vh;
@@ -13,10 +10,12 @@
   max-height: 1600px;
   object-fit: cover;
   @media (max-width: 1130px) {
-    min-height: 400px;
+    min-height: auto;
     height: auto;
+    object-fit: cover;
   }
   img {
+    width: 100%;
   }
 }
 
@@ -30,5 +29,16 @@
     height: 16px;
     border-radius: 8px;
     background: #ffffff;
+  }
+  .swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
+  .swiper-pagination-horizontal.swiper-pagination-bullets
+    .swiper-pagination-bullet {
+    margin: 0 var(--swiper-pagination-bullet-horizontal-gap, 14px);
+  }
+  .swiper-pagination-fraction,
+  .swiper-pagination-custom,
+  .swiper-horizontal > .swiper-pagination-bullets,
+  .swiper-pagination-bullets.swiper-pagination-horizontal {
+    bottom: var(--swiper-pagination-bottom, 21px);
   }
 }

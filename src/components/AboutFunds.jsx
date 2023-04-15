@@ -7,7 +7,7 @@ const AboutFunds = () => {
       <div className="container">
         <div className="aboutfund__block aboutfund-block">
           <div className="aboutfund-block__image">
-            <img src={blockimg} alt="" />
+            <img src={blockimg} alt="фото с животными" />
           </div>
           <div className="aboutfund-block__info">
             <h2>ПРИЮТ ХВОСТИК</h2>

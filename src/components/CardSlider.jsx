@@ -4,7 +4,7 @@ const CardSlider = ({ image, title, text }) => {
   return (
     <div className="cardslide">
       <div className="cardslide__img">
-        <img src={image} alt="" />
+        <img src={image} alt="фото" />
       </div>
       <div className="cardslide__title">
         <h2>{title}</h2>

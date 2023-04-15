@@ -14,7 +14,7 @@ const FooterInfo = () => {
         <div className="footer__body">
           <NavLink to={HOME} end>
             <div className="footer__logo">
-              <img src={logo} alt="" />
+              <img src={logo} alt="логотип" />
               <h2>ХВОСТИК</h2>
             </div>
           </NavLink>
@@ -45,7 +45,7 @@ const FooterInfo = () => {
               <h4>Поддержка</h4>
             </div>
             <div className="donate-footer__image">
-              <img src={visa} alt="" />
+              <img src={visa} alt="виза" />
             </div>
             <div className="donate-footer__carta">
               <Link to={'https://yoomoney.ru/to/4100118170933236'}>
@@ -59,15 +59,13 @@ const FooterInfo = () => {
             </div>
             <div className="contacts-footer__network">
               <NavLink to={'https://www.instagram.com/mi_hvostik.ru/'}>
-                <img src={instagram} alt="" />
+                <img src={instagram} alt="инстаграм" />
               </NavLink>
               <NavLink to={'https://t.me/mimihvostik_ru'}>
-                <img src={telegram} alt="" />
+                <img src={telegram} alt="телеграм" />
               </NavLink>
-              <NavLink
-                to={'https://www.tiktok.com/@mimihexaq0r?_t=8bSr66aaII1'}
-              >
-                <img src={tiktok} alt="" />
+              <NavLink to={'https://www.tiktok.com/@mi_hvostik'}>
+                <img src={tiktok} alt="тик-ток" />
               </NavLink>
             </div>
           </div>

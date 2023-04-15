@@ -14,17 +14,16 @@ const Sponsors = () => {
         <div className="sponsor__body">
           <div className="sponsor__image image-sponsor">
             <div className="image-sponsor__item">
-              <img src={abc} alt="" />
+              <img src={abc} alt="логотип фонда авц" />
             </div>
             <div className="image-sponsor__item image-sponsor__item-mini">
-              <img src={onf} alt="" />
+              <img src={onf} alt="логотип фонда онф" />
             </div>
             <div className="image-sponsor__item">
-              <img src={acn} alt="" />
+              <img src={acn} alt="логотип фонда аси" />
             </div>
             <div className="image-sponsor__item">
-              {' '}
-              <img src={prezident} alt="" />
+              <img src={prezident} alt="логотип фонда президент" />
             </div>
           </div>
         </div>

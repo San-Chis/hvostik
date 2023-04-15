@@ -71,10 +71,10 @@ const Slider = () => {
             </SwiperSlide>
           </Swiper>
           <div className="prev-arrow" onClick={handlePrev}>
-            <img src={arrowleft} alt="" />
+            <img src={arrowleft} alt="стрелка лево" />
           </div>
           <div className="next-arrow" onClick={handleNext}>
-            <img src={arrowright} alt="" />
+            <img src={arrowright} alt="стрелка право" />
           </div>
         </div>
       </div>

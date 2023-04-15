@@ -10,6 +10,7 @@
   @media (max-width: 1130px) {
     height: auto;
     flex-direction: column-reverse;
+    min-height: auto;
   }
   @media (max-width: 620px) {
     height: 100%;
@@ -88,7 +89,7 @@
   height: 100%;
   width: 55%;
   @media (max-width: 1130px) {
-    position: static;
+    position: relative;
     width: 100%;
   }
   &::after {
@@ -103,7 +104,13 @@
     background-repeat: no-repeat;
     background-size: 100% 100%;
     @media (max-width: 1130px) {
-      display: none;
+      right: 0;
+      bottom: 0;
+      top: auto;
+      left: 0;
+      width: 100%;
+      height: 10%;
+      background-image: url(/img/home/fur-adaptive.png);
     }
   }
 }

@@ -4,7 +4,10 @@ import { Swiper, SwiperSlide } from 'swiper/react'
 import { useWindowSize } from '../hooks/useWindowSize'
 import LuckysCard from './LuckysCard'
 import nata from '../img/home/card_lucky_nata.png'
-import IMG_1294 from '../img/home/IMG_1294.JPG'
+import img_1020 from '../img/home/1020.png'
+import img_1021 from '../img/home/1021.png'
+import img_1022 from '../img/home/1022.png'
+import img_1023 from '../img/home/1023.png'
 import richard from '../img/home/card_lucky_richard.png'
 import 'swiper/css'
 import 'swiper/css/pagination'
@@ -50,25 +53,19 @@ const Luckys = () => {
               <LuckysCard image={nata} text={'НАТА'} />
             </SwiperSlide>
             <SwiperSlide>
-              <LuckysCard image={IMG_1294} text={'ВАСЯ'} />
+              <LuckysCard image={img_1020} text={'АСЯ'} />
             </SwiperSlide>
             <SwiperSlide>
               <LuckysCard image={richard} text={'РИЧАРД'} />
             </SwiperSlide>
             <SwiperSlide>
-              <LuckysCard image={nata} text={'НАТА'} />
+              <LuckysCard image={img_1021} text={'ГРЕЙ'} />
             </SwiperSlide>
             <SwiperSlide>
-              <LuckysCard image={nata} text={'НАТА'} />
+              <LuckysCard image={img_1022} text={'НИКИ'} />
             </SwiperSlide>
             <SwiperSlide>
-              <LuckysCard image={nata} text={'НАТА'} />
-            </SwiperSlide>
-            <SwiperSlide>
-              <LuckysCard image={nata} text={'НАТА'} />
-            </SwiperSlide>
-            <SwiperSlide>
-              <LuckysCard image={nata} text={'НАТА'} />
+              <LuckysCard image={img_1023} text={'АРЧИ'} />
             </SwiperSlide>
           </Swiper>
         </div>

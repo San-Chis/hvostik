@@ -17,7 +17,7 @@ const HowHelp = () => {
           <HowHelpDonate />
           <div className="helphow__sum sum-helphow">
             <div className="sum-helphow__info">
-              <img src={two} alt="" />
+              <img src={two} alt="число два" />
               <h2>ОТПРАВЬТЕ ЛЮБУЮ СУММУ</h2>
             </div>
             <div className="sum-helphow__text">
@@ -41,8 +41,10 @@ const HowHelp = () => {
           <div className="helphow__thankyou">
             <div className="helphow-thankyou__block  block-helphow-thankyou">
               <div className="block-helphow-thankyou__title">
-                <img src={three} alt="" />
-                <h2>СПАСИБО</h2>
+                <img src={three} alt="число три" />
+                <h2>
+                  СПАСИБО<span>😽</span>
+                </h2>
               </div>
               <div className="block-helphow-thankyou__text">
                 <p>
@@ -52,13 +54,13 @@ const HowHelp = () => {
             </div>
             <div className="thankyou-helphow__image image-helphow-thankyou">
               <div className="image-helphow-thankyou__one">
-                <img src={helpone} alt="" />
+                <img src={helpone} alt="первое фото" />
               </div>
               <div className="image-helphow-thankyou__two">
-                <img src={helptwo} alt="" />
+                <img src={helptwo} alt="второе фото" />
               </div>
               <div className="image-helphow-thankyou__three">
-                <img src={helpthree} alt="" />
+                <img src={helpthree} alt="третье фото" />
               </div>
             </div>
           </div>

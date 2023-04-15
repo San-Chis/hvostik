@@ -1,10 +1,10 @@
 .sliders {
   margin-bottom: 64px;
-  @media (max-width: 805px){
-	margin-bottom: 44px;
+  @media (max-width: 805px) {
+    margin-bottom: 44px;
   }
-  @media (max-width: 400px){
-	margin-bottom: 34px;
+  @media (max-width: 400px) {
+    margin-bottom: 34px;
   }
 }
 .sliders__title {
@@ -52,7 +52,7 @@
     @media (max-width: 1280px) {
       height: 53px;
       width: 53px;
-      right: -22px;
+      right: -18px;
       font-size: 16px;
       border: 7px solid #ffffff;
       top: var(--swiper-navigation-top-offset, 35%);
@@ -81,7 +81,7 @@
     right: auto;
     left: -30px;
     @media (max-width: 1280px) {
-      left: -22px;
+      left: -18px;
     }
   }
   .swiper {

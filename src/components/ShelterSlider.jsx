@@ -2,8 +2,8 @@ import React from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { Pagination, Scrollbar, A11y, Autoplay } from 'swiper'
 import shelter from '../img/home/shelter_bg.png'
-import IMG_1291 from '../img/home/IMG_1291.JPG'
-import IMG_1288 from '../img/home/IMG_1288.JPG'
+import img_1289 from '../img/home/1289.png'
+import img_1288 from '../img/home/1288.png'
 import 'swiper/scss'
 import 'swiper/scss/pagination'
 import 'swiper/css/scrollbar'
@@ -27,13 +27,25 @@ const ShelterSlider = () => {
           }}
         >
           <SwiperSlide>
-            <img className="swiper-backgraund__img" src={shelter} alt="" />
+            <img
+              className="swiper-backgraund__img"
+              src={shelter}
+              alt="фото с животными"
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <img className="swiper-backgraund__img" src={IMG_1291} alt="" />
+            <img
+              className="swiper-backgraund__img"
+              src={img_1288}
+              alt="фото с животными"
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <img className="swiper-backgraund__img" src={IMG_1288} alt="" />
+            <img
+              className="swiper-backgraund__img"
+              src={img_1289}
+              alt="фото с животными"
+            />
           </SwiperSlide>
         </Swiper>
       </div>

@@ -19,7 +19,7 @@ const Header = ({ onClick }) => {
         <div className={`header__body ${menuMobile ? 'active' : ''}`}>
           <NavLink to={HOME} end>
             <div className={`header__logo ${logoMobile ? 'active' : ''}`}>
-              <img src={logo} alt="" />
+              <img src={logo} alt="логотип" />
               <h2>ХВОСТИК</h2>
             </div>
           </NavLink>
