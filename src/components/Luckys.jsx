@@ -41,8 +41,8 @@ const Luckys = () => {
             modules={[A11y, Autoplay]}
             spaceBetween={40}
             slidesPerView={total}
-            onSwiper={(swiper) => console.log(swiper)}
-            onSlideChange={() => console.log('slide change')}
+            onSwiper={(swiper) => {}}
+            onSlideChange={() => {}}
             loop={true}
             autoplay={{
               delay: 2500,

@@ -1,54 +1,76 @@
-import React, { useState } from 'react'
-import { NavLink } from 'react-router-dom'
+import React, { useEffect, useState } from 'react'
 import ButtonHelpMini from '../button/ButtonMini'
 import logo from '../img/logo.svg'
+import ForceNavLink from './ForceNavLink'
 import { HOME, FUND, PROGRAMS, HELP } from '../routes/constans'
 
 const Header = ({ onClick }) => {
   const [menuMobile, setMenuMobile] = useState(false)
   const [logoMobile, setLogoMobile] = useState(false)
+  const [dimensions, setDimensions] = useState({
+    width: window.innerWidth,
+    height: window.innerHeight,
+  })
+
+  useEffect(() => {
+    window.addEventListener('resize', handleResize, false)
+  }, [])
 
   const toggleMobileMenu = () => {
     setMenuMobile(!menuMobile)
     setLogoMobile(!logoMobile)
   }
 
+  useEffect(() => {
+    if (typeof window != 'undefined' && window.document) {
+      document.body.style.overflow =
+        menuMobile && dimensions.width < 750 ? 'hidden' : 'unset'
+    }
+  }, [menuMobile, dimensions.width])
+
+  const handleResize = () => {
+    setDimensions({
+      width: window.innerWidth,
+      height: window.innerHeight,
+    })
+  }
+
   return (
     <header className="header">
       <div className="container">
         <div className={`header__body ${menuMobile ? 'active' : ''}`}>
-          <NavLink to={HOME} end>
+          <ForceNavLink to={HOME} end>
             <div className={`header__logo ${logoMobile ? 'active' : ''}`}>
               <img src={logo} alt="логотип" />
               <h2>ХВОСТИК</h2>
             </div>
-          </NavLink>
+          </ForceNavLink>
           <div className={`header__block ${menuMobile ? 'active' : ''}`}>
             <div className="header__nav nav-header">
               <ul className={`nav-header__list ${menuMobile ? 'active' : ''}`}>
                 <li className="nav-header__item">
-                  <NavLink className="nav-header__link" to={HOME} end>
+                  <ForceNavLink className="nav-header__link" to={HOME}>
                     Главная
-                  </NavLink>
+                  </ForceNavLink>
                 </li>
                 <li className="nav-header__item">
-                  <NavLink className="nav-header__link" to={FUND} end>
+                  <ForceNavLink className="nav-header__link" to={FUND}>
                     Про Фонд
-                  </NavLink>
+                  </ForceNavLink>
                 </li>
                 <li className="nav-header__item">
-                  <NavLink className="nav-header__link" to={PROGRAMS} end>
+                  <ForceNavLink className="nav-header__link" to={PROGRAMS}>
                     Программы
-                  </NavLink>
+                  </ForceNavLink>
                 </li>
               </ul>
             </div>
             <div className={`header__btn ${menuMobile ? 'active' : ''}`}>
-              <NavLink to={HELP} end>
+              <ForceNavLink to={HELP} end>
                 <ButtonHelpMini onClick={onClick}>
                   <span>ПОМОЧЬ</span>
                 </ButtonHelpMini>
-              </NavLink>
+              </ForceNavLink>
             </div>
           </div>
           <div

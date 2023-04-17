@@ -1,5 +1,4 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom'
 import one from '../img/home/one.png'
 
 const HowHelpDonate = () => {
@@ -15,11 +14,11 @@ const HowHelpDonate = () => {
         </p>
       </div>
       <div className="donate__block">
-        <NavLink to={'https://yoomoney.ru/to/4100118170933236'}>
+        <a target="_blank" href={'https://yoomoney.ru/to/4100118170933236'}>
           <div className="donate__link">
             <h2>ПОЖЕРТВОВАТЬ</h2>
           </div>
-        </NavLink>
+        </a>
       </div>
     </div>
   )

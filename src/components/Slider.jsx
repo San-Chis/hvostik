@@ -15,6 +15,9 @@ import arrowright from '../img/home/slider_arrow_right.svg'
 
 const Slider = () => {
   const [total, setTotal] = useState(2)
+  const [isStart, setIsStart] = useState(true)
+  const [isEnd, setIsEnd] = useState(false)
+
   const windowSize = useWindowSize()
   const sliderRef = useRef(null)
 
@@ -45,6 +48,10 @@ const Slider = () => {
             slidesPerView={total}
             navigation
             ref={sliderRef}
+            onSlideChange={(swiper) => {
+              setIsEnd(swiper.isEnd)
+              setIsStart(swiper.isBeginning)
+            }}
           >
             <SwiperSlide>
               <CardSlider
@@ -70,10 +77,16 @@ const Slider = () => {
               />
             </SwiperSlide>
           </Swiper>
-          <div className="prev-arrow" onClick={handlePrev}>
+          <div
+            className={`prev-arrow ${isStart ? 'arrow-opacity' : ''}`}
+            onClick={handlePrev}
+          >
             <img src={arrowleft} alt="стрелка лево" />
           </div>
-          <div className="next-arrow" onClick={handleNext}>
+          <div
+            className={`next-arrow ${isEnd ? 'arrow-opacity' : ''}`}
+            onClick={handleNext}
+          >
             <img src={arrowright} alt="стрелка право" />
           </div>
         </div>

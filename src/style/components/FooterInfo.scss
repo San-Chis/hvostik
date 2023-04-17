@@ -18,8 +18,6 @@
 }
 .footer__logo {
   display: flex;
-  img {
-  }
   h2 {
     padding-top: 14px;
     font-family: 'oddval';
@@ -46,6 +44,13 @@
   &__item {
     line-height: 20px;
     color: #222222;
+  }
+  &__link {
+    span {
+      &:hover {
+        color: #ffc800;
+      }
+    }
   }
 }
 

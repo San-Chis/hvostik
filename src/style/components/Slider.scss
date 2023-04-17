@@ -33,6 +33,7 @@
   }
   .prev-arrow,
   .next-arrow {
+    cursor: pointer;
     position: absolute;
     right: -30px;
     z-index: 10000;
@@ -89,5 +90,10 @@
       display: flex;
       height: auto;
     }
+  }
+
+  .arrow-opacity {
+    cursor: auto;
+    opacity: 0.5;
   }
 }

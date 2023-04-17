@@ -17,8 +17,8 @@ const ShelterSlider = () => {
           modules={[Pagination, Scrollbar, A11y, Autoplay]}
           spaceBetween={1}
           slidesPerView={1}
-          onSlideChange={() => console.log('slide change')}
-          onSwiper={(swiper) => console.log(swiper)}
+          onSlideChange={() => {}}
+          onSwiper={(swiper) => {}}
           pagination={{ clickable: true }}
           loop={true}
           autoplay={{
