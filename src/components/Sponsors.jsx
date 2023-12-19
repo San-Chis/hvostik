@@ -1,29 +1,29 @@
 import React from 'react'
-import abc from '../img/home/sponsor_abc.png'
-import onf from '../img/home/sponsor_onf.png'
-import acn from '../img/home/sponsor_acn.png'
-import prezident from '../img/home/sponsor_prezident.png'
+import animals from '../img/home/animals.jpg'
+import sumske from '../img/home/sumske.png'
+import dnipro from '../img/home/dnipro.jpg'
+import sirius from '../img/home/sirius.jpg'
 
 const Sponsors = () => {
   return (
     <div className="sponsor">
       <div className="container">
         <div className="sponsor__title">
-          <h3>Фонды с которыми мы сотрудничаем</h3>
+          <h3>Фонди з якими ми співпрацюємо</h3>
         </div>
         <div className="sponsor__body">
           <div className="sponsor__image image-sponsor">
-            <div className="image-sponsor__item">
-              <img src={abc} alt="логотип фонда авц" />
+            <div className="image-sponsor__item ">
+              <img src={animals} alt="логотип фонду" />
             </div>
-            <div className="image-sponsor__item image-sponsor__item-mini">
-              <img src={onf} alt="логотип фонда онф" />
-            </div>
-            <div className="image-sponsor__item">
-              <img src={acn} alt="логотип фонда аси" />
+            <div className="image-sponsor__item ">
+              <img src={sumske} alt="логотип фонду" />
             </div>
             <div className="image-sponsor__item">
-              <img src={prezident} alt="логотип фонда президент" />
+              <img src={dnipro} alt="логотип фонду" />
+            </div>
+            <div className="image-sponsor__item">
+              <img src={sirius} alt="логотип фонду" />
             </div>
           </div>
         </div>

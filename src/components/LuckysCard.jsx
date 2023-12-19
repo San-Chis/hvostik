@@ -4,7 +4,7 @@ const LuckysCard = ({ image, text }) => {
   return (
     <div className="cardlucky">
       <div className="cardlucky__img">
-        <img src={image} alt="фото счастливчика" />
+        <img src={image} alt="фото щасливчика" />
       </div>
       <div className="cardlucky__text">
         <p>{text}</p>

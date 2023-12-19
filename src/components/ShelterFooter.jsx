@@ -8,7 +8,7 @@ const ShelterFooter = () => {
       <div className="container">
         <div className="footershelter__block block-footershelter">
           <div className="block-footershelter__title">
-            <h2>ПОДАРИТЕ ДОМ ЖИВОТНЫМ УЖЕ СЕГОДНЯ</h2>
+            <h2>ПОДАРУЙТЕ БУДИНОК ТВАРИН УЖЕ СЬОГОДНІ</h2>
           </div>
           <div className="block-footershelter__btn">
             <Link
@@ -19,7 +19,7 @@ const ShelterFooter = () => {
               duration={500}
             >
               <ButtonBig>
-                <span>ПОМОЧЬ</span>
+                <span>ДОПОМОГТИ</span>
               </ButtonBig>
             </Link>
           </div>

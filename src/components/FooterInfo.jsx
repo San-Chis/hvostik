@@ -29,48 +29,42 @@ const FooterInfo = () => {
               </li>
               <li className="nav-footer__item">
                 <ForceNavLink className="nav-footer__link" to={PROGRAMS}>
-                  <span>Программы</span>
+                  <span>Програми</span>
                 </ForceNavLink>
               </li>
               <li className="nav-footer__item">
                 <ForceNavLink className="nav-footer__link" to={HELP}>
-                  <span>Помочь</span>
+                  <span>Допомогти</span>
                 </ForceNavLink>
               </li>
             </ul>
           </div>
           <div className="footer__donate donate-footer">
             <div className=" donate-footer__title">
-              <h4>Поддержка</h4>
+              <h4>Підтримка</h4>
             </div>
             <div className="donate-footer__image">
-              <img src={visa} alt="виза" />
+              <img src={visa} alt="віза" />
             </div>
             <div className="donate-footer__carta">
-              <a
-                target="_blank"
-                href={'https://yoomoney.ru/to/4100118170933236'}
-              >
-                <h3>Пожертвовать</h3>
+              <a target="_blank" href={'https://www.monobank.ua/?lang=uk'}>
+                <h3>Пожертвувати</h3>
               </a>
             </div>
           </div>
           <div className="footer__contacts contacts-footer">
             <div className="contacts-footer__title">
-              <h4>Связь с нами</h4>
+              <h4>Зв'язок з нами</h4>
             </div>
             <div className="contacts-footer__network">
-              <a
-                target="_blank"
-                href={'https://www.instagram.com/mi_hvostik.ru/'}
-              >
-                <img src={instagram} alt="инстаграм" />
+              <a target="_blank" href={'https://www.instagram.com'}>
+                <img src={instagram} alt="інстаграм" />
               </a>
-              <a target="_blank" href={'https://t.me/mimihvostik_ru'}>
+              <a target="_blank" href={'https://t.me'}>
                 <img src={telegram} alt="телеграм" />
               </a>
-              <a target="_blank" href={'https://www.tiktok.com/@mi_hvostik'}>
-                <img src={tiktok} alt="тик-ток" />
+              <a target="_blank" href={'https://www.tiktok.com'}>
+                <img src={tiktok} alt="тік-ток" />
               </a>
             </div>
           </div>

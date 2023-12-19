@@ -8,29 +8,26 @@ const Contacts = () => {
     <div className="contact">
       <div className="container">
         <div className="contact__title">
-          <h2>СВЯЖИТЕСЬ С НАМИ</h2>
+          <h2>ЗВ'ЯЖІТЬСЯ З НАМИ</h2>
         </div>
         <div className="contact__body">
-          <div className="contact_social social-contact">
+          <div className="contact__social social-contact">
             <div className="social-contact__link">
-              <a
-                target="_blank"
-                href={'https://www.instagram.com/mi_hvostik.ru/'}
-              >
-                <img src={instagram} alt="инстаграм" />
-                <p>Инстаграм</p>
+              <a target="_blank" href={'https://www.instagram.com'}>
+                <img src={instagram} alt="інстаграм" />
+                <p>Інстаграм</p>
               </a>
             </div>
             <div className="social-contact__link">
-              <a target="_blank" href={'https://t.me/mimihvostik_ru'}>
+              <a target="_blank" href={'https://t.me'}>
                 <img src={telegram} alt="телеграм" />
                 <p>Телеграм</p>
               </a>
             </div>
             <div className="social-contact__link">
-              <a target="_blank" href={'https://www.tiktok.com/@mi_hvostik'}>
-                <img src={tiktok} alt="тик-ток" />
-                <p>Тик-ток</p>
+              <a target="_blank" href={'https://www.tiktok.com'}>
+                <img src={tiktok} alt="тік-ток" />
+                <p>Тік-ток</p>
               </a>
             </div>
           </div>

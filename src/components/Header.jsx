@@ -50,7 +50,7 @@ const Header = ({ onClick }) => {
               <ul className={`nav-header__list ${menuMobile ? 'active' : ''}`}>
                 <li className="nav-header__item">
                   <ForceNavLink className="nav-header__link" to={HOME}>
-                    Главная
+                    Головна
                   </ForceNavLink>
                 </li>
                 <li className="nav-header__item">
@@ -60,7 +60,7 @@ const Header = ({ onClick }) => {
                 </li>
                 <li className="nav-header__item">
                   <ForceNavLink className="nav-header__link" to={PROGRAMS}>
-                    Программы
+                    Програми
                   </ForceNavLink>
                 </li>
               </ul>
@@ -68,7 +68,7 @@ const Header = ({ onClick }) => {
             <div className={`header__btn ${menuMobile ? 'active' : ''}`}>
               <ForceNavLink to={HELP} end>
                 <ButtonHelpMini onClick={onClick}>
-                  <span>ПОМОЧЬ</span>
+                  <span>ДОПОМОГТИ</span>
                 </ButtonHelpMini>
               </ForceNavLink>
             </div>

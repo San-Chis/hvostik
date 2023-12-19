@@ -34,7 +34,7 @@ const Luckys = () => {
     <div className="lucky">
       <div className="container">
         <div className="lucky__title">
-          <h2>СЧАСТЛИВЧИКИ</h2>
+          <h2>ЩАСЛИВЦІ</h2>
         </div>
         <div className="lucky__body">
           <Swiper
@@ -56,16 +56,16 @@ const Luckys = () => {
               <LuckysCard image={img_1020} text={'АСЯ'} />
             </SwiperSlide>
             <SwiperSlide>
-              <LuckysCard image={richard} text={'РИЧАРД'} />
+              <LuckysCard image={richard} text={'РІЧАРД'} />
             </SwiperSlide>
             <SwiperSlide>
               <LuckysCard image={img_1021} text={'ГРЕЙ'} />
             </SwiperSlide>
             <SwiperSlide>
-              <LuckysCard image={img_1022} text={'НИКИ'} />
+              <LuckysCard image={img_1022} text={'НІКІ'} />
             </SwiperSlide>
             <SwiperSlide>
-              <LuckysCard image={img_1023} text={'АРЧИ'} />
+              <LuckysCard image={img_1023} text={'АРЧІ'} />
             </SwiperSlide>
           </Swiper>
         </div>

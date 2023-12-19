@@ -39,7 +39,7 @@ const Slider = () => {
     <section className="sliders">
       <div className="container">
         <div className="sliders__title">
-          <h2>КАК МЫ ПОМОГАЕМ?</h2>
+          <h2>ЯК МИ ДОПОМАГАЄМО?</h2>
         </div>
         <div className="sliders__body">
           <Swiper
@@ -56,24 +56,24 @@ const Slider = () => {
             <SwiperSlide>
               <CardSlider
                 image={foodslide}
-                title={'ПРОГРАММА “НАКОРМИ ДРУГА”'}
-                text={'Закупаем еду для собак, чтобы они не остались голодными'}
+                title={'ПРОГРАМА “НАГОДУЙ ДРУГА”'}
+                text={'Купуємо їжу для собак, щоб вони не залишилися голодними'}
               />
             </SwiperSlide>
             <SwiperSlide>
               <CardSlider
                 image={hausslide}
-                title={'ПРОЕКТ “СОБАКАДОМ”'}
+                title={'ПРОЕКТ “СОБАКАДІМ”'}
                 text={
-                  'Проектируем и строим комфортные домики для бездомных собак'
+                  'Проектуємо та будуємо комфортні будиночки для бездомних собак'
                 }
               />
             </SwiperSlide>
             <SwiperSlide>
               <CardSlider
                 image={dogsslide}
-                title={'ПРОГРАММА “СТЕРЕЛИЗАЦИЯ”'}
-                text={'С клиниками-партнерами стерилизуем животных'}
+                title={'ПРОГРАМА “СТЕРИЛІЗАЦІЯ”'}
+                text={'З клініками-партнерами стерилізуємо тварин'}
               />
             </SwiperSlide>
           </Swiper>
@@ -81,13 +81,13 @@ const Slider = () => {
             className={`prev-arrow ${isStart ? 'arrow-opacity' : ''}`}
             onClick={handlePrev}
           >
-            <img src={arrowleft} alt="стрелка лево" />
+            <img src={arrowleft} alt="стрілка ліворуч" />
           </div>
           <div
             className={`next-arrow ${isEnd ? 'arrow-opacity' : ''}`}
             onClick={handleNext}
           >
-            <img src={arrowright} alt="стрелка право" />
+            <img src={arrowright} alt="стрілка вправо" />
           </div>
         </div>
       </div>

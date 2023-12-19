@@ -20,7 +20,7 @@ export const Fund = () => {
         <div className="container">
           <div className="fundpage__donate donate-fundpage">
             <div className="donate-fundpage__title">
-              <h2>КАК ПОМОЧЬ?</h2>
+              <h2>ЯК ДОПОМОГТИ?</h2>
             </div>
             <div className="donate-fundpage__howhelp">
               <HowHelpDonate />

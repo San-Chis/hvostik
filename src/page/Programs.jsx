@@ -17,7 +17,7 @@ export const Programs = () => {
         <div className="container">
           <div className="programspage__donate donate-programspage">
             <div className="donate-programspage__title">
-              <h2>КАК ПОМОЧЬ?</h2>
+              <h2>ЯК ДОПОМОГТИ?</h2>
             </div>
             <div className="donate-programspage__howhelp">
               <HowHelpDonate />

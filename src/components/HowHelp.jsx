@@ -11,30 +11,30 @@ const HowHelp = () => {
     <section className="helphow">
       <div className="container">
         <div className="helphow__title">
-          <h2>КАК ПОМОЧЬ?</h2>
+          <h2>ЯК ДОПОМОГТИ?</h2>
         </div>
         <div className="helphow__body">
           <HowHelpDonate />
           <div className="helphow__sum sum-helphow">
             <div className="sum-helphow__info">
               <img src={two} alt="число два" />
-              <h2>ОТПРАВЬТЕ ЛЮБУЮ СУММУ</h2>
+              <h2>ВІДПРАВИТЬ БУДЬ-ЯКУ СУМУ</h2>
             </div>
             <div className="sum-helphow__text">
-              <p>Будем рады любой поддержке</p>
+              <p>Будемо раді будь-якій підтримці</p>
             </div>
             <div className="sum-helphow__denomination ">
-              <div className="sum-helphow__denomination__txt">
-                <p>200₽</p>
+              <div className="sum-helphow__denomination-txt">
+                <p>200₴</p>
               </div>
-              <div className="sum-helphow__denomination__txt">
-                <p>500₽</p>
+              <div className="sum-helphow__denomination-txt">
+                <p>500₴</p>
               </div>
-              <div className="sum-helphow__denomination__txt">
-                <p>1 000₽</p>
+              <div className="sum-helphow__denomination-txt">
+                <p>1 000₴</p>
               </div>
-              <div className="sum-helphow__denomination__txt">
-                <p>15 000₽</p>
+              <div className="sum-helphow__denomination-txt">
+                <p>10 000₴</p>
               </div>
             </div>
           </div>
@@ -43,24 +43,24 @@ const HowHelp = () => {
               <div className="block-helphow-thankyou__title">
                 <img src={three} alt="число три" />
                 <h2>
-                  СПАСИБО<span>😽</span>
+                  ДЯКУЄМО<span>😽</span>
                 </h2>
               </div>
               <div className="block-helphow-thankyou__text">
                 <p>
-                  Вот так всего за несколько шагов вы можете помочь животным
+                  Ось так всього за кілька кроків ви можете допомогти тваринам
                 </p>
               </div>
             </div>
             <div className="thankyou-helphow__image image-helphow-thankyou">
               <div className="image-helphow-thankyou__one">
-                <img src={helpone} alt="первое фото" />
+                <img src={helpone} alt="перше фото" />
               </div>
               <div className="image-helphow-thankyou__two">
-                <img src={helptwo} alt="второе фото" />
+                <img src={helptwo} alt="друге фото" />
               </div>
               <div className="image-helphow-thankyou__three">
-                <img src={helpthree} alt="третье фото" />
+                <img src={helpthree} alt="третє фото" />
               </div>
             </div>
           </div>

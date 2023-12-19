@@ -11,10 +11,10 @@ const Shelter = () => {
         <div className="shelters__body">
           <div className="shelters__info info-shelters">
             <div className="info-shelters__title">
-              <h1>ПРИЮТ ХВОСТИК</h1>
+              <h1>ПРИТУЛОК ХВОСТИК</h1>
             </div>
             <div className="info-shelters__text">
-              <p>Поможем хвостатым вместе</p>
+              <p>Допоможемо хвостатим разом</p>
             </div>
             <div className="info-shelters__btn">
               <Link
@@ -25,8 +25,8 @@ const Shelter = () => {
                 duration={500}
               >
                 <ButtonBlack>
-                  <img src={cat} alt="картинка кот" />
-                  <span>ПОМОЧЬ</span>
+                  <img src={cat} alt="картинка кіт" />
+                  <span>ДОПОМОГТИ</span>
                 </ButtonBlack>
               </Link>
             </div>

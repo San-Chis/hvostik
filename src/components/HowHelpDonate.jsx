@@ -6,17 +6,17 @@ const HowHelpDonate = () => {
     <div className="donate">
       <div className="donate__info">
         <img src={one} alt="число один" />
-        <h2>ПЕРЕХОДИТЕ НА ФОРМУ</h2>
+        <h2>ПЕРЕХОДІТЬ НА ФОРМУ</h2>
       </div>
       <div className="donate__text">
         <p>
-          Нажмите на кнопку пожертвований и переходите на форму поддержки приюта
+          Натисніть кнопку пожертвувань і переходьте на форму підтримки притулку
         </p>
       </div>
       <div className="donate__block">
-        <a target="_blank" href={'https://yoomoney.ru/to/4100118170933236'}>
+        <a target="_blank" href={'https://www.monobank.ua/?lang=uk'}>
           <div className="donate__link">
-            <h2>ПОЖЕРТВОВАТЬ</h2>
+            <h2>ПОЖЕРТВУВАТИ</h2>
           </div>
         </a>
       </div>

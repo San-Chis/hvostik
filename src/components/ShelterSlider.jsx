@@ -30,21 +30,21 @@ const ShelterSlider = () => {
             <img
               className="swiper-backgraund__img"
               src={shelter}
-              alt="фото с животными"
+              alt="фото з тваринами"
             />
           </SwiperSlide>
           <SwiperSlide>
             <img
               className="swiper-backgraund__img"
               src={img_1288}
-              alt="фото с животными"
+              alt="фото з тваринами"
             />
           </SwiperSlide>
           <SwiperSlide>
             <img
               className="swiper-backgraund__img"
               src={img_1289}
-              alt="фото с животными"
+              alt="фото з тваринами"
             />
           </SwiperSlide>
         </Swiper>
