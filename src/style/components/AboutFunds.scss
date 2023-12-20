@@ -29,7 +29,7 @@
     }
     h2 {
       font-family: 'Oddval';
-      font-size: 64px;
+      font-size: 54px;
       line-height: 99px;
       color: #222222;
       @media (max-width: 1182px) {
@@ -46,6 +46,9 @@
       @media (max-width: 520px) {
         font-size: 26px;
         line-height: 35px;
+      }
+      @media (max-width: 340px) {
+        font-size: 24px;
       }
     }
     p {

@@ -66,6 +66,9 @@
     @media (max-width: 620px) {
       font-size: 18px;
     }
+    @media screen and (max-width: 328px) {
+      line-height: 19px;
+    }
   }
   &__btn {
     @media (max-width: 1130px) {

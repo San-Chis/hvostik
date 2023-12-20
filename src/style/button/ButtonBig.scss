@@ -2,6 +2,9 @@
   background: #ffc800;
   border-radius: 16px;
   padding: 13px 94px;
+  @media screen and (max-width: 375px) {
+    padding: 13px 64px;
+  }
   &:hover {
     background: #222222;
     border-radius: 16px;

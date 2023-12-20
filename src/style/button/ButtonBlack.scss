@@ -6,6 +6,9 @@
   background: #222222;
   border-radius: 16px;
   color: #ffffff;
+  @media screen and (max-width: 375px) {
+    padding: 13px 50px;
+  }
   &:hover {
     border-radius: 16px;
     transition: all 0.5s ease-out;
